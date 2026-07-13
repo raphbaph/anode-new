@@ -1,0 +1,29 @@
+# All public content is available to search engines and answer engines.
+User-agent: *
+Allow: /
+
+# Search and user-requested retrieval agents.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Model-development crawlers. These can be disallowed independently later
+# without removing Anode from search-oriented AI experiences.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://www.anode.gg/sitemap.xml
