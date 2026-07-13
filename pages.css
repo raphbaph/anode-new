@@ -42,6 +42,23 @@
 .article-copy a:hover { border-color: var(--acid); color: #637b16; }
 .article-lede { color: var(--ink) !important; font-size: clamp(22px, 2.2vw, 30px) !important; letter-spacing: -.04em; line-height: 1.15 !important; }
 .article-rule { border: 0; border-top: 1px solid var(--line-dark); margin: 48px 0; }
+.method-steps { border-top: 1px solid var(--line-dark); margin: 26px 0 42px; }
+.method-step { border-bottom: 1px solid var(--line-dark); display: grid; gap: 18px; grid-template-columns: 36px 1fr; padding: 17px 0; }
+.method-step > span { color: #7a817b; font: 11px var(--mono); padding-top: 3px; }
+.method-step strong { color: var(--ink); display: block; font-size: 17px; letter-spacing: -.03em; }
+.method-step p { font-size: 14px; line-height: 1.4; margin: 5px 0 0; }
+.evidence-table-wrap { margin: 24px 0 42px; overflow-x: auto; }
+.evidence-table { border-collapse: collapse; min-width: 660px; width: 100%; }
+.evidence-table th, .evidence-table td { border-bottom: 1px solid var(--line-dark); padding: 13px 12px 13px 0; text-align: left; vertical-align: top; }
+.evidence-table thead th { color: #69716b; font: 10px var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.evidence-table tbody th { color: var(--ink); font-size: 14px; font-weight: 700; width: 27%; }
+.evidence-table td { color: #505a53; font-size: 13px; line-height: 1.4; width: 36%; }
+.citation-card { background: var(--ink); color: var(--paper); margin: 44px 0 0; padding: 25px; }
+.citation-card p { color: var(--paper-dim); font-size: 15px; line-height: 1.45; margin: 0 0 18px; }
+.citation-card .citation-label { color: var(--acid); font: 10px var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.citation-card .citation-line { border-top: 1px solid rgba(242, 240, 232, .22); font: 11px var(--mono); letter-spacing: .02em; margin: 22px 0 0; padding-top: 17px; }
+.citation-card a { border-color: var(--paper-dim); color: var(--paper); overflow-wrap: anywhere; }
+.citation-card a:hover { border-color: var(--acid); color: var(--acid); }
 
 .fact-stack { display: grid; gap: 12px; align-content: start; }
 .fact-card { background: var(--ink); color: var(--paper); padding: 23px; }
@@ -97,6 +114,10 @@
   .page-layout, .about-grid { display: block; }
   .article-copy h2 { font-size: clamp(43px, 13vw, 68px); }
   .article-copy p, .article-copy li { font-size: 16px; }
+  .method-step { gap: 10px; grid-template-columns: 28px 1fr; }
+  .method-step strong { font-size: 16px; }
+  .method-step p { font-size: 13px; }
+  .evidence-table { min-width: 600px; }
   .fact-stack { margin-top: 58px; }
   .page-band { padding: 68px 22px; }
   .page-band-inner { align-items: flex-start; flex-direction: column; gap: 30px; }
