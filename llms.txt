@@ -23,6 +23,8 @@ Anode helps groups turn many perspectives into coherent action. Its practice com
 
 ## Research
 
+- [The DAO Delegation Handbook](https://www.anode.gg/research/dao-delegation-handbook/): Handbook 002 by Enrique Alles Fernandez, V2 / September 2026. An overview, chapter guide and original PDF on delegated governance authority, mandates, incentives, revocation and a practical architecture canvas.
+
 - [Research index](https://www.anode.gg/research/): Fieldwork, discourse analysis, and mechanism design across governance and networked organizations.
 - [Comparative governance research](https://www.anode.gg/research/comparative-governance/): A study of governance behavior across 15 DAOs, grounded in 59K forum posts and 4.8K mapped threads, with a five-pass analysis protocol, evidence matrix, interpretation limits, and citation-ready summary.
 - [About Anode](https://www.anode.gg/about/): The studio's approach, principles, and contact details.
