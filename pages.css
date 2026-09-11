@@ -131,3 +131,31 @@
   .principle p { grid-column: 2; }
   .contact-panel { margin-top: 58px; padding: 26px; }
 }
+
+.handbook-hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, .8fr); gap: 7vw; align-items: center; }
+.handbook-hero h1 { font-size: clamp(58px, 6.8vw, 100px); }
+.handbook-author { color: var(--paper-dim); font: 11px var(--mono); line-height: 1.6; margin-top: 25px; }
+.handbook-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 25px; margin-top: 30px; }
+.handbook-download { border-bottom: 1px solid currentColor; font-size: 13px; padding-bottom: 5px; }
+.handbook-cover { display: block; border: 1px solid #354039; box-shadow: 12px 18px 45px #0006; }
+.handbook-cover img { display: block; width: 100%; height: auto; }
+.handbook-kicker { color: #637b16; }
+.handbook-reading { padding: 24px 0 0; }
+.handbook-reading h2 { font-size: 28px; }
+.handbook-reading p { color: #505a53; font-size: 14px; line-height: 1.6; margin-top: 22px; }
+.handbook-reading strong { color: var(--ink); }
+.article-copy .handbook-contents { list-style: none; padding: 0; border-top: 1px solid var(--line-dark); }
+.article-copy .handbook-contents li { padding: 0; margin: 0; }
+.handbook-contents a { display: flex; gap: 20px; justify-content: space-between; border-bottom: 1px solid var(--line-dark); padding: 16px 0; font-size: 15px; }
+.chapter-page { white-space: nowrap; font: 11px var(--mono); padding-top: 5px; }
+.index-card.handbook-index-card { background: var(--acid); color: var(--ink); }
+.handbook-index-card h3 { margin-top: 45px; }
+.handbook-hero a:focus-visible, .handbook-contents a:focus-visible { outline: 2px solid #799922; outline-offset: 6px; }
+@media (max-width: 760px) {
+  .handbook-hero-grid { grid-template-columns: 1fr; gap: 44px; }
+  .handbook-hero h1 { font-size: clamp(48px, 13vw, 88px); }
+  .handbook-cover { max-width: 280px; }
+  .handbook-hero .page-meta { line-height: 1.6; }
+}
+.handbook-hero { color: var(--paper); }
+.handbook-body .site-header { color: var(--paper); }
