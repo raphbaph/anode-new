@@ -92,7 +92,7 @@
           window.IRV.optionKey(index) +
           " · " +
           option.name +
-          '</div><div class="sim-track"><div class="sim-bar" data-bar></div><div class="sim-majority" aria-hidden="true"><span>Majority</span></div><span class="sim-transfer" data-transfer></span></div><div class="sim-value" data-value>0</div></div>'
+          '</div><div class="sim-track"><div class="sim-bar" data-bar></div><div class="sim-majority" aria-hidden="true"></div><span class="sim-transfer" data-transfer></span></div><div class="sim-value" data-value>0</div></div>'
         );
       })
       .join("");

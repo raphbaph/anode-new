@@ -1,3 +1,9 @@
+.irv-body .site-header,
+.irv-hero,
+.irv-hero h1 {
+  color: var(--paper);
+}
+.irv-hero h1 em { color: var(--acid); }
 .irv-hero {
   min-height: 0;
   padding-bottom: 36px;
@@ -185,17 +191,6 @@
   top: 0;
   z-index: 2;
 }
-.sim-majority span {
-  color: var(--acid);
-  font: 8px var(--mono);
-  left: 6px;
-  letter-spacing: 0.08em;
-  position: absolute;
-  top: -13px;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-.sim-row:not(:first-child) .sim-majority span { display: none; }
 .sim-bar {
   background: rgba(191, 195, 185, 0.55);
   height: 100%;
@@ -337,6 +332,7 @@
 
 @media (max-width: 760px) {
   .irv-hero { padding-bottom: 28px; }
+  .irv-hero h1 { font-size: clamp(44px, 12vw, 68px); }
   .sim-section { padding: 0 22px 68px; }
   .sim-frame { padding: 16px 14px 20px; }
   .sim-toolbar { align-items: stretch; flex-direction: column; }
