@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Watch a weighted Instant Runoff Voting simulation: a governance proposal, ranked ballots, and live vote transfers until one option holds a majority."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#0a0d0c" />
+    <link rel="canonical" href="https://www.anode.gg/simulators/irv/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Anode" />
+    <meta property="og:url" content="https://www.anode.gg/simulators/irv/" />
+    <meta property="og:title" content="Instant runoff simulator | Anode" />
+    <meta
+      property="og:description"
+      content="A client-side Instant Runoff Voting simulator: ranked ballots, weighted voting power, and live eliminations."
+    />
+    <meta property="og:image" content="https://www.anode.gg/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Instant runoff simulator | Anode" />
+    <meta
+      name="twitter:description"
+      content="A client-side Instant Runoff Voting simulator: ranked ballots, weighted voting power, and live eliminations."
+    />
+    <meta name="twitter:image" content="https://www.anode.gg/og-image.png" />
+    <title>Instant runoff simulator | Anode</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.anode.gg/simulators/irv/#webpage",
+            "url": "https://www.anode.gg/simulators/irv/",
+            "name": "Instant runoff simulator | Anode",
+            "description": "Watch a weighted Instant Runoff Voting simulation with ranked ballots and live vote transfers.",
+            "isPartOf": { "@id": "https://www.anode.gg/#website" },
+            "dateModified": "2026-09-18",
+            "inLanguage": "en"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Anode", "item": "https://www.anode.gg/" },
+              { "@type": "ListItem", "position": 2, "name": "Decision systems", "item": "https://www.anode.gg/decision-systems/" },
+              { "@type": "ListItem", "position": 3, "name": "Instant runoff simulator", "item": "https://www.anode.gg/simulators/irv/" }
+            ]
+          }
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../pages.css" />
+    <link rel="stylesheet" href="irv.css" />
+  </head>
+  <body class="page-body irv-body">
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="/" aria-label="Anode home">
+          <span class="wordmark-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="wordmark-name">ANODE</span><span class="wordmark-sub">RESEARCH</span>
+        </a>
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="/research/">Research</a><a href="/about/">About</a><a href="/#method">Method</a>
+        </nav>
+        <a class="header-cta" href="mailto:hello@anode.gg"><span>Start a conversation</span><span class="arrow">↗</span></a>
+      </header>
+
+      <main>
+        <section class="page-hero irv-hero" aria-labelledby="page-title">
+          <div class="page-hero-inner">
+            <p class="page-kicker">Simulator / Instant runoff</p>
+            <h1 id="page-title">Watch a proposal find a <em>majority.</em></h1>
+            <p class="page-deck">
+              Instant runoff eliminates last-place options until one choice holds more than half of the continuing voting power. This run is seeded, weighted, and entirely in your browser.
+            </p>
+            <div class="hero-actions">
+              <button class="button button-primary" type="button" data-irv-generate>Generate new proposal <span>↗</span></button>
+            </div>
+            <div class="page-meta"><span>Client-side · Weighted ballots · No backend</span><span>Updated September 2026</span></div>
+          </div>
+        </section>
+
+        <section class="sim-section" aria-label="Instant runoff simulation">
+          <div class="sim-section-inner">
+            <div class="sim-frame" data-irv>
+              <div class="sim-toolbar">
+                <div class="sim-status">
+                  <span>Round <b data-irv-round>00</b></span>
+                  <span data-irv-phase-wrap>Phase <b data-irv-phase>Idle</b></span>
+                  <span>Power <b data-irv-power>—</b></span>
+                  <span>Continuing <b data-irv-continuing>—</b></span>
+                  <span>Seed <b data-irv-seed>—</b></span>
+                </div>
+                <button class="button sim-generate" type="button" data-irv-generate>Generate new proposal <span>↗</span></button>
+              </div>
+
+              <div class="sim-layout">
+                <div class="sim-proposal">
+                  <p class="sim-kind" data-irv-kind>Proposal agent</p>
+                  <h2 data-irv-title>Selecting a scenario…</h2>
+                  <p class="sim-context" data-irv-context></p>
+                  <ul class="sim-options" data-irv-options></ul>
+                </div>
+                <div class="sim-chart">
+                  <div class="sim-chart-head">
+                    <span>First-preference tally · share of continuing power</span>
+                    <span>Majority &gt; 50%</span>
+                  </div>
+                  <div class="sim-rows" data-irv-rows></div>
+                  <p class="sim-note" data-irv-note>Preparing the field.</p>
+                  <p class="sim-live" aria-live="polite" data-irv-live></p>
+                  <div class="sim-winner" data-irv-winner>
+                    <small>Winner</small>
+                    <h3 data-irv-winner-name></h3>
+                    <p data-irv-winner-copy></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sim-voters-wrap">
+                <p class="sim-voters-label">Voter agents · name and voting power · letter is the current first remaining preference</p>
+                <div class="sim-voters" data-irv-voters></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-content irv-copy" aria-labelledby="explainer-title">
+          <div class="page-content-inner page-layout">
+            <article class="article-copy">
+              <h2 id="explainer-title">What the runoff is <em>doing.</em></h2>
+              <p class="article-lede">Each voter ranks every option. Voting power sits with the current first remaining choice. If nobody has a majority, last place is eliminated and that power moves with the ballot.</p>
+              <p>The threshold is half of <strong>continuing</strong> power, not the original total. If a ballot has nowhere left to go, that power is exhausted and drops out of the denominator. Ties for last place break toward the option listed later on the proposal—deterministic, so a seed replays the same race.</p>
+              <p>This is a demonstration, not a claim that instant runoff is the right mechanism for every decision. Some calls need delegation, some need consent, some should not be votes at all. See the practice note on <a href="/decision-systems/">decision systems</a>.</p>
+            </article>
+            <aside class="fact-stack" aria-label="How to read the simulation">
+              <div class="fact-card acid"><small>Lead</small><strong>Acid<br />bar.</strong><p>The current first-preference leader, by weighted voting power.</p></div>
+              <div class="fact-card orange"><small>Elimination</small><strong>Orange<br />transfer.</strong><p>Last place leaves. Its ballots redistribute to the next remaining rank.</p></div>
+              <nav class="fact-nav" aria-label="Related">
+                <a href="/decision-systems/">Decision systems ↗</a>
+                <a href="/research/">Research ↗</a>
+              </nav>
+            </aside>
+          </div>
+        </section>
+
+        <section class="page-band" aria-label="Anode method">
+          <div class="page-band-inner">
+            <h2>A vote is only useful if the system knows <em>what it is for.</em></h2>
+            <p>Observe the system. Model the behavior. Design the mechanism. Test and adapt.</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-mark"><span class="wordmark-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>ANODE</span></div>
+        <p>Decision systems, incentive design &amp; coordination research.</p>
+        <div class="footer-links"><a href="mailto:hello@anode.gg">Email</a><a href="/">Home ↗</a></div>
+      </footer>
+    </div>
+    <script src="irv-engine.js"></script>
+    <script src="irv.js"></script>
+  </body>
+</html>
