@@ -1,10 +1,11 @@
 .page-body { background: var(--paper); color: var(--ink); }
-.page-body .site-header { background: transparent; }
+.page-body .site-header { background: transparent; color: var(--paper); }
 .page-body .desktop-nav a { color: var(--paper-dim); }
 .page-body .site-footer { color: var(--paper-dim); }
 
 .page-hero {
   background: radial-gradient(circle at 75% 18%, #1b2b22 0%, var(--ink) 44%, #080b0a 100%);
+  color: var(--paper);
   min-height: 510px;
   padding: 168px 7vw 90px;
   position: relative;
@@ -22,7 +23,7 @@
 }
 .page-hero-inner { margin: 0 auto; max-width: 1180px; position: relative; z-index: 1; }
 .page-kicker { color: var(--acid); font: 10px var(--mono); letter-spacing: .14em; margin-bottom: 34px; text-transform: uppercase; }
-.page-hero h1 { font-size: clamp(58px, 8vw, 118px); max-width: 900px; }
+.page-hero h1 { color: var(--paper); font-size: clamp(58px, 8vw, 118px); max-width: 900px; }
 .page-hero h1 em { color: var(--acid); }
 .page-hero .page-deck { color: var(--paper-dim); font-size: clamp(18px, 1.8vw, 23px); line-height: 1.42; margin: 38px 0 0; max-width: 610px; }
 .page-meta { border-top: 1px solid rgba(242, 240, 232, .22); color: var(--paper-dim); display: flex; font: 10px var(--mono); justify-content: space-between; letter-spacing: .1em; margin-top: 70px; padding-top: 14px; text-transform: uppercase; }
