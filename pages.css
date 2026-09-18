@@ -104,6 +104,12 @@
 .contact-panel p { font-size: 18px; line-height: 1.4; margin: 0 0 22px; max-width: 470px; }
 .contact-panel a { border-bottom: 1px solid var(--ink); font: 11px var(--mono); letter-spacing: .12em; padding-bottom: 7px; text-transform: uppercase; }
 
+.controller-block { border-top: 1px solid var(--line-dark); margin: 8px 0 42px; }
+.controller-row { border-bottom: 1px solid var(--line-dark); display: grid; gap: 12px 24px; grid-template-columns: 150px 1fr; margin: 0; padding: 15px 0; }
+.controller-row dt { color: #69716b; font: 10px var(--mono); letter-spacing: .1em; margin: 0; padding-top: 4px; text-transform: uppercase; }
+.controller-row dd { color: var(--ink); font-size: 16px; line-height: 1.45; margin: 0; }
+.fact-card.compact strong { font-size: 22px; letter-spacing: -.04em; line-height: 1.2; overflow-wrap: anywhere; }
+
 @media (max-width: 760px) {
   .page-hero { min-height: 510px; padding: 128px 22px 60px; }
   .page-hero::after { height: 330px; right: -200px; top: 170px; width: 470px; }
@@ -130,6 +136,7 @@
   .principle { gap: 11px; grid-template-columns: 13% 1fr; }
   .principle p { grid-column: 2; }
   .contact-panel { margin-top: 58px; padding: 26px; }
+  .controller-row { gap: 6px; grid-template-columns: 1fr; }
 }
 
 .handbook-hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, .8fr); gap: 7vw; align-items: center; }
