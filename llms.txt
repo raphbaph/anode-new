@@ -29,6 +29,10 @@ Anode helps groups turn many perspectives into coherent action. Its practice com
 - [Comparative governance research](https://www.anode.gg/research/comparative-governance/): A study of governance behavior across 15 DAOs, grounded in 59K forum posts and 4.8K mapped threads, with a five-pass analysis protocol, evidence matrix, interpretation limits, and citation-ready summary.
 - [About Anode](https://www.anode.gg/about/): Anode Research's approach, principles, and contact details.
 
+## Monitor
+
+- [Rootstock Collective delegate monitor](https://www.anode.gg/collective/): Voting participation and forum activity of compensation delegates.
+
 ## Contact
 
 - Email: hello@anode.gg

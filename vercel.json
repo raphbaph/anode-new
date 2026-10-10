@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/collective",
+      "destination": "https://rootstock-delegate-mon.vercel.app/collective"
+    },
+    {
+      "source": "/collective/",
+      "destination": "https://rootstock-delegate-mon.vercel.app/collective/"
+    },
+    {
+      "source": "/collective/:path*",
+      "destination": "https://rootstock-delegate-mon.vercel.app/collective/:path*"
+    }
+  ]
+}
