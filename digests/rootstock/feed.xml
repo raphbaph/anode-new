@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rootstock Collective governance digest</title>
+    <link>https://www.anode.gg/digests/rootstock/</link>
+    <description>Independent daily summary of public forum activity in the Rootstock Collective, compiled by Anode Research.</description>
+    <language>en</language>
+    <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -29,6 +29,16 @@ Anode helps groups turn many perspectives into coherent action. Its practice com
 - [Comparative governance research](https://www.anode.gg/research/comparative-governance/): A study of governance behavior across 15 DAOs, grounded in 59K forum posts and 4.8K mapped threads, with a five-pass analysis protocol, evidence matrix, interpretation limits, and citation-ready summary.
 - [About Anode](https://www.anode.gg/about/): Anode Research's approach, principles, and contact details.
 
+## Governance digests
+
+Independent daily summaries of public forum activity, compiled by Anode Research. Anode is a
+delegate in Reserve and Rootstock Collective; these summaries are not official communications
+of either DAO.
+
+- [Governance digests](https://www.anode.gg/digests/): Hub for both feeds, with the latest editions.
+- [Reserve Protocol digest](https://www.anode.gg/digests/reserve/): Daily digest of the Reserve Protocol forum, with archive and RSS.
+- [Rootstock Collective digest](https://www.anode.gg/digests/rootstock/): Daily digest of the Rootstock Collective forum, with archive and RSS.
+
 ## Contact
 
 - Email: hello@anode.gg
