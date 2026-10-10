@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reserve Protocol governance digest</title>
+    <link>https://www.anode.gg/digests/reserve/</link>
+    <description>Independent daily summary of public forum activity in the Reserve Protocol, compiled by Anode Research.</description>
+    <language>en</language>
+    <atom:link href="https://www.anode.gg/digests/reserve/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reserve Protocol governance digest: 2026-10-10</title>
+      <link>https://www.anode.gg/digests/reserve/2026-10-10/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/reserve/2026-10-10/</guid>
+      <pubDate>Sat, 10 Oct 2026 09:40:00 +0000</pubDate>
+      <description>Quiet day on the Reserve Protocol forum, with no new topics or posts in the window.</description>
+    </item>
+  </channel>
+</rss>

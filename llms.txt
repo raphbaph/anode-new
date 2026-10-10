@@ -32,6 +32,15 @@ Anode helps groups turn many perspectives into coherent action. Its practice com
 ## Monitor
 
 - [Rootstock Collective delegate monitor](https://www.anode.gg/collective/): Voting participation and forum activity of compensation delegates.
+## Governance digests
+
+Independent daily summaries of public forum activity, compiled by Anode Research. Anode is a
+delegate in Reserve and Rootstock Collective; these summaries are not official communications
+of either DAO.
+
+- [Governance digests](https://www.anode.gg/digests/): Hub for both feeds, with the latest editions.
+- [Reserve Protocol digest](https://www.anode.gg/digests/reserve/): Daily digest of the Reserve Protocol forum, with archive and RSS.
+- [Rootstock Collective digest](https://www.anode.gg/digests/rootstock/): Daily digest of the Rootstock Collective forum, with archive and RSS.
 
 ## Contact
 
