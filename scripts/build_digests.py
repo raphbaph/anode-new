@@ -275,7 +275,15 @@ def parse_edition(path: Path, expected_feed: str) -> Edition:
     if meta["date"] != path.stem:
         raise DigestError(f'{label}: date "{meta["date"]}" does not match filename "{path.stem}"')
 
-    body_errors = validate_body(m.group(2), meta["quiet"] == "true")
+    body = m.group(2)
+    if meta["quiet"] == "true":
+        # Quiet-day generators sometimes emit the standard empty headings.
+        # Remove only those known headings; substantive content must still fail.
+        body = "\n".join(
+            line for line in body.splitlines()
+            if line.strip() not in {"## " + title for title in SECTION_ORDER}
+        ).strip()
+    body_errors = validate_body(body, meta["quiet"] == "true")
     if body_errors:
         raise DigestError(label + ": " + "; ".join(body_errors[:10]))
 
@@ -285,7 +293,7 @@ def parse_edition(path: Path, expected_feed: str) -> Edition:
         window=meta["window"],
         quiet=meta["quiet"] == "true",
         summary=summary,
-        body_html=markdown_to_html(m.group(2)),
+        body_html=markdown_to_html(body),
         path=path,
     )
 
