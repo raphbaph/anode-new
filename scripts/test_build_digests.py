@@ -15,6 +15,10 @@ class QuietEditionTests(unittest.TestCase):
         self.assertIn(QUIET_LINE, edition.body_html)
         self.assertNotIn('<h2', edition.body_html)
 
+    def test_quiet_no_schedule_note_is_ignored(self):
+        edition = self.parse(QUIET_LINE + '\n\n## What to watch\nNothing scheduled in this window.')
+        self.assertEqual(edition.body_html, self.parse(QUIET_LINE).body_html)
+
     def test_quiet_substantive_content_is_rejected(self):
         with self.assertRaises(DigestError):
             self.parse('## New topics\n- A new proposal appeared.\n' + QUIET_LINE)

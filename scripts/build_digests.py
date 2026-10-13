@@ -281,7 +281,8 @@ def parse_edition(path: Path, expected_feed: str) -> Edition:
         # Remove only those known headings; substantive content must still fail.
         body = "\n".join(
             line for line in body.splitlines()
-            if line.strip() not in {"## " + title for title in SECTION_ORDER}
+            if line.strip() not in ({"## " + title for title in SECTION_ORDER}
+                                    | {"Nothing scheduled in this window."})
         ).strip()
     body_errors = validate_body(body, meta["quiet"] == "true")
     if body_errors:
