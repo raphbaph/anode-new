@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-10-14</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-10-14/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-14/</guid>
+      <pubDate>Wed, 14 Oct 2026 09:40:00 +0000</pubDate>
+      <description>The Andromeda 4-week RIF staking pilot goes live across official channels; the Rootstock Builder Hub LABITCONF proposal is withdrawn, and Kleros Foresight answers liquidity questions on milestone 1.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-10-13</title>
       <link>https://www.anode.gg/digests/rootstock/2026-10-13/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-13/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-15/</guid>
       <pubDate>Tue, 15 Sep 2026 09:40:00 +0000</pubDate>
       <description>No new proposals; three posts on existing grants, including a critical take on the 2609 Yield Vault&#x27;s $25k ask.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-09-14</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-09-14/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-14/</guid>
-      <pubDate>Mon, 14 Sep 2026 09:40:00 +0000</pubDate>
-      <description>One delegate post as Kaf_Anode voted FOR the Boltz Builder Deactivation; no new topics or proposals.</description>
     </item>
   </channel>
 </rss>

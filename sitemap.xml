@@ -15,13 +15,14 @@
   <url><loc>https://www.anode.gg/simulators/irv/</loc><lastmod>2026-09-18</lastmod></url>
   <url><loc>https://www.anode.gg/collective/</loc><lastmod>2026-10-10</lastmod></url>
   <!-- digests:start -->
-  <url><loc>https://www.anode.gg/digests/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://www.anode.gg/digests/reserve/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://www.anode.gg/digests/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://www.anode.gg/digests/reserve/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://www.anode.gg/digests/reserve/2026-10-10/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://www.anode.gg/digests/reserve/2026-10-11/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://www.anode.gg/digests/reserve/2026-10-12/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://www.anode.gg/digests/reserve/2026-10-13/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://www.anode.gg/digests/rootstock/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://www.anode.gg/digests/reserve/2026-10-14/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://www.anode.gg/digests/rootstock/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://www.anode.gg/digests/rootstock/2026-08-25/</loc><lastmod>2026-08-25</lastmod></url>
   <url><loc>https://www.anode.gg/digests/rootstock/2026-08-26/</loc><lastmod>2026-08-26</lastmod></url>
   <url><loc>https://www.anode.gg/digests/rootstock/2026-08-27/</loc><lastmod>2026-08-27</lastmod></url>
@@ -71,5 +72,6 @@
   <url><loc>https://www.anode.gg/digests/rootstock/2026-10-11/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://www.anode.gg/digests/rootstock/2026-10-12/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://www.anode.gg/digests/rootstock/2026-10-13/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://www.anode.gg/digests/rootstock/2026-10-14/</loc><lastmod>2026-10-14</lastmod></url>
   <!-- digests:end -->
 </urlset>
