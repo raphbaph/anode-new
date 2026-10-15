@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-10-15</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-10-15/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-15/</guid>
+      <pubDate>Thu, 15 Oct 2026 09:40:00 +0000</pubDate>
+      <description>The Andromeda 4-week RIF staking observation window goes live across official channels, and delegate Tane questions the value of the Kleros Foresight milestone 1 budget.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-10-14</title>
       <link>https://www.anode.gg/digests/rootstock/2026-10-14/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-14/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-16/</guid>
       <pubDate>Wed, 16 Sep 2026 09:40:00 +0000</pubDate>
       <description>Achthar updated the 2608 1delta Intents grant with a staged on-chain plan; a supportive comment landed on Delegate Compensation.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-09-15</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-09-15/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-15/</guid>
-      <pubDate>Tue, 15 Sep 2026 09:40:00 +0000</pubDate>
-      <description>No new proposals; three posts on existing grants, including a critical take on the 2609 Yield Vault&#x27;s $25k ask.</description>
     </item>
   </channel>
 </rss>
