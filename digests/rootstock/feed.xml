@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-10-18</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-10-18/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-18/</guid>
+      <pubDate>Sun, 18 Oct 2026 09:40:00 +0000</pubDate>
+      <description>IBUKI welcomed the four-week observation window for the 2606 Grant Andromeda Core; no new topics or proposals.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-10-17</title>
       <link>https://www.anode.gg/digests/rootstock/2026-10-17/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-17/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-18/</guid>
       <pubDate>Fri, 18 Sep 2026 09:40:00 +0000</pubDate>
       <description>Kaf_Anode and Tane voted FOR 1delta Intents T1 onchain; a critical comment challenged the 2609 Yield Vault&#x27;s grant size and demand.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-09-17</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-09-17/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-17/</guid>
-      <pubDate>Thu, 17 Sep 2026 09:40:00 +0000</pubDate>
-      <description>NeznaniJunak defended 2609 Yield Vault economics and redesigned M4; Axia and PGov both voted FOR the 1delta Intents T1 tranche.</description>
     </item>
   </channel>
 </rss>
