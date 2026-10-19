@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-10-19</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-10-19/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-19/</guid>
+      <pubDate>Mon, 19 Oct 2026 09:40:00 +0000</pubDate>
+      <description>No new topics or posts on the Rootstock Collective forum in this window.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-10-18</title>
       <link>https://www.anode.gg/digests/rootstock/2026-10-18/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-18/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-19/</guid>
       <pubDate>Sat, 19 Sep 2026 09:40:00 +0000</pubDate>
       <description>1delta Intents drew three FOR delegate votes on T1; 2609 Yield Vault debate turned to valuation methodology; three builder deactivations voted.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-09-18</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-09-18/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-18/</guid>
-      <pubDate>Fri, 18 Sep 2026 09:40:00 +0000</pubDate>
-      <description>Kaf_Anode and Tane voted FOR 1delta Intents T1 onchain; a critical comment challenged the 2609 Yield Vault&#x27;s grant size and demand.</description>
     </item>
   </channel>
 </rss>
