@@ -8,7 +8,12 @@ front matter) from content/digests/<feed>/<date>.md and writes:
   digests/<feed>/index.html              latest digest in full + dated archive list
   digests/<feed>/<date>/index.html       permalink per day
   digests/<feed>/feed.xml                RSS 2.0, latest 30 entries
+  index.html                             homepage "From the field" cards, between the
+                                         <!-- latest-digests:start/end --> markers
   sitemap.xml / llms.txt                 updated only inside marker blocks this script owns
+
+Header and footer come from partials/ via build_partials.py, so generated pages are
+already up to date when `build_partials.py --check` runs.
 
 Idempotent: output depends only on content dates, never on wall-clock time.
 """
@@ -24,6 +29,8 @@ import sys
 from dataclasses import dataclass
 from datetime import date, datetime, timezone
 from pathlib import Path
+
+import build_partials
 
 SITE = "https://www.anode.gg"
 FEED_NAMES = {"reserve": "Reserve Protocol", "rootstock": "Rootstock Collective"}
@@ -64,24 +71,26 @@ LLMS_SECTION = (
     "\n"
 )
 
-HEADER = (
-    '      <header class="site-header"><a class="wordmark" href="/" aria-label="Anode home">'
-    '<span class="wordmark-mark" aria-hidden="true"><span></span><span></span><span></span></span>'
-    '<span class="wordmark-name">ANODE</span><span class="wordmark-sub">RESEARCH</span></a>'
-    '<nav class="desktop-nav" aria-label="Primary navigation">'
-    '<a href="/research/">Research</a><a href="/decision-systems/">Practice</a>'
-    '<a href="/about/">About</a><a href="/digests/">Digests</a><a href="/#method">Method</a></nav>'
-    '<a class="header-cta" href="mailto:hello@anode.gg"><span>Start a conversation</span>'
-    '<span class="arrow">\u2197</span></a></header>'
-)
+LATEST_START = "<!-- latest-digests:start -->"
+LATEST_END = "<!-- latest-digests:end -->"
 
-FOOTER = (
-    '      <footer class="site-footer"><div class="footer-mark">'
-    '<span class="wordmark-mark" aria-hidden="true"><span></span><span></span><span></span></span>'
-    '<span>ANODE</span></div><p>Decision systems, incentive design &amp; coordination research.</p>'
-    '<div class="footer-links"><a href="mailto:hello@anode.gg">Email</a><a href="/digests/">Digests</a>'
-    '<a href="/privacy/">Privacy</a><a href="/">Home \u2197</a></div></footer>'
-)
+REPO_ROOT = Path(__file__).resolve().parent.parent
+_partials_cache: dict[Path, dict[str, str]] = {}
+
+
+def partials_for(repo: Path) -> dict[str, str]:
+    """Header/footer partials of a repo (cached; the build runs once per process)."""
+    repo = repo.resolve()
+    if repo not in _partials_cache:
+        try:
+            _partials_cache[repo] = build_partials.load_partials(repo)
+        except build_partials.PartialsError as exc:
+            raise DigestError(str(exc))
+    return _partials_cache[repo]
+
+
+# The repo whose partials generated pages use; main() points this at --repo-root.
+PARTIALS_REPO = REPO_ROOT
 
 # Unicode characters and ranges forbidden in digest editions.
 FORBIDDEN_SINGLE = {0x2013: "en dash", 0x2014: "em dash"}
@@ -398,22 +407,29 @@ def render_head(title: str, description: str, canonical: str, og_type: str,
 def render_page(title: str, description: str, canonical: str, og_type: str,
                 rss_links: str, extra_meta: str, jsonld: dict, hero: str, main: str) -> str:
     head = render_head(title, description, canonical, og_type, rss_links, extra_meta, jsonld)
-    return (
+    page = (
         "<!doctype html>\n"
         '<html lang="en">\n'
         "  <head>\n"
         f"{head}  </head>\n"
         '  <body class="page-body">\n'
         '    <div class="site-shell">\n'
-        f"{HEADER}\n"
+        "      <!-- partial:header -->\n"
+        "      <!-- /partial:header -->\n"
         "      <main>\n"
         f"{hero}\n{main}\n"
         "      </main>\n"
-        f"{FOOTER}\n"
+        "      <!-- partial:footer -->\n"
+        "      <!-- /partial:footer -->\n"
         "    </div>\n"
         "  </body>\n"
         "</html>\n"
     )
+    url_path = canonical[len(SITE):] if canonical.startswith(SITE) else canonical
+    try:
+        return build_partials.apply_partials(page, url_path, partials_for(PARTIALS_REPO))
+    except build_partials.PartialsError as exc:
+        raise DigestError(str(exc))
 
 
 def hero_block(kicker: str, h1_html: str, deck: str, meta_left: str, meta_right: str) -> str:
@@ -666,6 +682,60 @@ def build_rss(feed: str, editions: list[Edition]) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Homepage "From the field" block
+# ---------------------------------------------------------------------------
+
+def latest_field_card(feed: str, editions: list[Edition]) -> str:
+    name = FEED_NAMES[feed]
+    if editions:
+        latest = editions[-1]
+        iso = latest.date.isoformat()
+        meta_right = iso
+        summary = esc(latest.summary)
+        href = day_page_url(feed, latest.date)
+        label = f"Read the {iso} edition"
+    else:
+        meta_right = "No editions yet"
+        summary = "No editions published yet. The first digest appears here after the next daily window."
+        href = feed_page_url(feed)
+        label = "Open the feed"
+    return (
+        '<article class="field-card">'
+        f'<p class="field-card-meta mono-label"><span>{esc(name)}</span><span>{meta_right}</span></p>'
+        f'<p class="field-card-summary">{summary}</p>'
+        f'<a class="field-card-link" href="{href}"><span>{label}</span><span aria-hidden="true">\u2197</span></a>'
+        "</article>"
+    )
+
+
+def build_latest_block(editions: dict[str, list[Edition]]) -> list[str]:
+    """Latest edition per feed, rendered from the same data as the digests hub cards."""
+    lines = ['<div class="field-grid">']
+    lines += ["  " + latest_field_card(f, editions.get(f, [])) for f in FEED_KEYS]
+    lines += ["</div>", f'<p class="field-note mono-label">{esc(DISCLAIMER)}</p>']
+    return lines
+
+
+def update_homepage(repo: Path, editions: dict[str, list[Edition]], changed: list[str]) -> None:
+    path = repo / "index.html"
+    if not path.exists():
+        return
+    text = path.read_text(encoding="utf-8")
+    pattern = re.compile(
+        r"(?P<indent>[ \t]*)" + re.escape(LATEST_START) + r".*?" + re.escape(LATEST_END), re.S
+    )
+    m = pattern.search(text)
+    if not m:
+        raise DigestError(f"{path}: missing {LATEST_START} / {LATEST_END} markers")
+    indent = m.group("indent")
+    inner = "\n".join(indent + line for line in build_latest_block(editions))
+    block = f"{indent}{LATEST_START}\n{inner}\n{indent}{LATEST_END}"
+    new_text = pattern.sub(lambda _m: block, text, count=1)
+    if write_if_changed(path, new_text):
+        changed.append("index.html")
+
+
+# ---------------------------------------------------------------------------
 # sitemap.xml and llms.txt
 # ---------------------------------------------------------------------------
 
@@ -768,6 +838,8 @@ def main(argv: list[str] | None = None) -> int:
     repo = Path(args.repo_root).resolve() if args.repo_root else Path(__file__).resolve().parent.parent
     content_dir = Path(args.content_dir).resolve() if args.content_dir else repo / "content" / "digests"
 
+    global PARTIALS_REPO
+    PARTIALS_REPO = repo
     try:
         editions = load_editions(content_dir)
         changed: list[str] = []
@@ -785,6 +857,7 @@ def main(argv: list[str] | None = None) -> int:
                 day_path = repo / "digests" / feed / ed.date.isoformat() / "index.html"
                 if write_if_changed(day_path, build_day_page(feed, ed, prev_ed, next_ed)):
                     changed.append(f"digests/{feed}/{ed.date.isoformat()}/index.html")
+        update_homepage(repo, editions, changed)
         update_sitemap(repo, editions, changed)
         update_llms(repo, changed)
     except DigestError as exc:

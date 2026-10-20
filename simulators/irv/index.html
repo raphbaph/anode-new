@@ -46,29 +46,41 @@
             "@type": "BreadcrumbList",
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "Anode", "item": "https://www.anode.gg/" },
-              { "@type": "ListItem", "position": 2, "name": "Decision systems", "item": "https://www.anode.gg/decision-systems/" },
+              { "@type": "ListItem", "position": 2, "name": "Tools", "item": "https://www.anode.gg/tools/" },
               { "@type": "ListItem", "position": 3, "name": "Instant runoff simulator", "item": "https://www.anode.gg/simulators/irv/" }
             ]
           }
         ]
       }
     </script>
-    <link rel="stylesheet" href="../../styles.css" />
-    <link rel="stylesheet" href="../../pages.css" />
-    <link rel="stylesheet" href="irv.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/pages.css" />
+    <link rel="stylesheet" href="/simulators/irv/irv.css" />
   </head>
   <body class="page-body irv-body">
     <div class="site-shell">
+      <!-- partial:header -->
       <header class="site-header">
         <a class="wordmark" href="/" aria-label="Anode home">
           <span class="wordmark-mark" aria-hidden="true"><span></span><span></span><span></span></span>
           <span class="wordmark-name">ANODE</span><span class="wordmark-sub">RESEARCH</span>
         </a>
-        <nav class="desktop-nav" aria-label="Primary navigation">
-          <a href="/research/">Research</a><a href="/about/">About</a><a href="/digests/">Digests</a><a href="/#method">Method</a>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="/practice/">Practice</a>
+          <a href="/research/">Research</a>
+          <a href="/tools/" aria-current="page">Tools</a>
+          <a href="/digests/">Digests</a>
+          <a href="/about/">About</a>
         </nav>
-        <a class="header-cta" href="mailto:hello@anode.gg"><span>Start a conversation</span><span class="arrow">↗</span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="nav-toggle-label">Menu</span><span class="nav-toggle-icon" aria-hidden="true"></span>
+        </button>
+        <a class="header-cta" href="mailto:hello@anode.gg">
+          <span>Start a conversation</span>
+          <span class="arrow">↗</span>
+        </a>
       </header>
+      <!-- /partial:header -->
 
       <main>
         <section class="page-hero irv-hero" aria-labelledby="page-title">
@@ -142,6 +154,7 @@
               <div class="fact-card acid"><small>Lead</small><strong>Acid<br />bar.</strong><p>The current first-preference leader, by weighted voting power.</p></div>
               <div class="fact-card orange"><small>Elimination</small><strong>Orange<br />transfer.</strong><p>Last place leaves. Its ballots redistribute to the next remaining rank.</p></div>
               <nav class="fact-nav" aria-label="Related">
+                <a href="/tools/">All tools ↗</a>
                 <a href="/decision-systems/">Decision systems ↗</a>
                 <a href="/research/">Research ↗</a>
               </nav>
@@ -157,13 +170,16 @@
         </section>
       </main>
 
+      <!-- partial:footer -->
       <footer class="site-footer">
         <div class="footer-mark"><span class="wordmark-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>ANODE</span></div>
         <p>Decision systems, incentive design &amp; coordination research.</p>
-        <div class="footer-links"><a href="mailto:hello@anode.gg">Email</a><a href="/digests/">Digests</a><a href="/">Home ↗</a></div>
+        <div class="footer-links"><a href="/practice/">Practice</a><a href="/research/">Research</a><a href="/tools/">Tools</a><a href="/digests/">Digests</a><a href="/about/">About</a><a href="mailto:hello@anode.gg">Email</a><a href="/privacy/">Privacy</a></div>
       </footer>
+      <script src="/nav.js" defer></script>
+      <!-- /partial:footer -->
     </div>
-    <script src="irv-engine.js"></script>
-    <script src="irv.js"></script>
+    <script src="/simulators/irv/irv-engine.js"></script>
+    <script src="/simulators/irv/irv.js"></script>
   </body>
 </html>

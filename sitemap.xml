@@ -2,17 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.anode.gg/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
-  <url><loc>https://www.anode.gg/decision-systems/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://www.anode.gg/incentive-design/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://www.anode.gg/coordination-architecture/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://www.anode.gg/research/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://www.anode.gg/research/comparative-governance/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://www.anode.gg/about/</loc><lastmod>2026-07-13</lastmod></url>
-  <url><loc>https://www.anode.gg/privacy/</loc><lastmod>2026-09-18</lastmod></url>
-  <url><loc>https://www.anode.gg/research/dao-delegation-handbook/</loc><lastmod>2026-09-11</lastmod></url>
-  <url><loc>https://www.anode.gg/simulators/irv/</loc><lastmod>2026-09-18</lastmod></url>
+  <url><loc>https://www.anode.gg/practice/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/tools/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/decision-systems/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/incentive-design/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/coordination-architecture/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/research/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/research/comparative-governance/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/about/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/privacy/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/research/dao-delegation-handbook/</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anode.gg/simulators/irv/</loc><lastmod>2026-10-20</lastmod></url>
   <url><loc>https://www.anode.gg/collective/</loc><lastmod>2026-10-10</lastmod></url>
   <!-- digests:start -->
   <url><loc>https://www.anode.gg/digests/</loc><lastmod>2026-10-20</lastmod></url>

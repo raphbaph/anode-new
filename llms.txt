@@ -17,6 +17,7 @@ Anode helps groups turn many perspectives into coherent action. Its practice com
 
 ## Practice pages
 
+- [Practice](https://www.anode.gg/practice/): Overview of Anode's three practice areas and the Observe, Model, Design, Test method.
 - [Decision systems](https://www.anode.gg/decision-systems/): Roles, delegation, voting, and escalation designed to put each decision in the right hands.
 - [Incentive design](https://www.anode.gg/incentive-design/): Rewards and recognition designed around durable value and tested against gaming.
 - [Coordination architecture](https://www.anode.gg/coordination-architecture/): Trusted units, mandates, interfaces, and feedback loops for adaptive networks.
@@ -31,9 +32,16 @@ Anode helps groups turn many perspectives into coherent action. Its practice com
 - [Comparative governance research](https://www.anode.gg/research/comparative-governance/): A study of governance behavior across 15 DAOs, grounded in 59K forum posts and 4.8K mapped threads, with a five-pass analysis protocol, evidence matrix, interpretation limits, and citation-ready summary.
 - [About Anode](https://www.anode.gg/about/): Anode Research's approach, principles, and contact details.
 
+## Tools
+
+- [Tools](https://www.anode.gg/tools/): Interactive simulators and monitors for decision systems, incentives, and governance.
+- [Instant runoff simulator](https://www.anode.gg/simulators/irv/): Weighted Instant Runoff Voting simulation with ranked ballots, live eliminations and vote transfers, running in the browser.
+- [eUSD Economics Lab](https://www.anode.gg/research/eusd-economics-lab/): Anode × Reserve simulator for eUSD revenue sharing and staking incentives.
+
 ## Monitor
 
 - [Rootstock Collective delegate monitor](https://www.anode.gg/collective/): Voting participation and forum activity of compensation delegates.
+
 ## Governance digests
 
 Independent daily summaries of public forum activity, compiled by Anode Research. Anode is a

@@ -1,7 +1,11 @@
+/* Subpage shell: paper body, dark hero/header/footer. Contrast rule: acid only on dark, orange or ink on paper. */
 .page-body { background: var(--paper); color: var(--ink); }
 .page-body .site-header { background: transparent; color: var(--paper); }
-.page-body .desktop-nav a { color: var(--paper-dim); }
+.page-body .site-nav a { color: var(--paper-dim); }
+.page-body .site-nav a:hover, .page-body .site-nav a[aria-current="page"] { color: var(--acid); }
 .page-body .site-footer { color: var(--paper-dim); }
+
+/* Page hero */
 
 .page-hero {
   background: radial-gradient(circle at 75% 18%, #1b2b22 0%, var(--ink) 44%, #080b0a 100%);
@@ -28,7 +32,13 @@
 .page-hero .page-deck { color: var(--paper-dim); font-size: clamp(18px, 1.8vw, 23px); line-height: 1.42; margin: 38px 0 0; max-width: 610px; }
 .page-meta { border-top: 1px solid rgba(242, 240, 232, .22); color: var(--paper-dim); display: flex; font: 10px var(--mono); justify-content: space-between; letter-spacing: .1em; margin-top: 70px; padding-top: 14px; text-transform: uppercase; }
 
+/* Page content and article copy */
 .page-content { padding: 92px 7vw 115px; }
+.page-content + .page-content { padding-top: 0; }
+.page-content .card-body h3 { font-size: clamp(28px, 2.7vw, 38px); }
+/* Emphasis on paper: orange in display headings, plain italic in running text (never acid). */
+.page-content h2 em { color: var(--orange); }
+.page-content em { color: inherit; }
 .page-content-inner { margin: 0 auto; max-width: 1180px; }
 .page-layout { display: grid; gap: 8vw; grid-template-columns: minmax(0, 1fr) 300px; }
 .article-copy { max-width: 720px; }
@@ -40,7 +50,7 @@
 .article-copy ul, .article-copy ol { margin: 0 0 28px; padding-left: 24px; }
 .article-copy li { margin: 0 0 12px; padding-left: 5px; }
 .article-copy a { border-bottom: 1px solid var(--ink); color: var(--ink); }
-.article-copy a:hover { border-color: var(--acid); color: #637b16; }
+.article-copy a:hover { border-color: var(--orange); color: #637b16; }
 .article-lede { color: var(--ink) !important; font-size: clamp(22px, 2.2vw, 30px) !important; letter-spacing: -.04em; line-height: 1.15 !important; }
 .article-rule { border: 0; border-top: 1px solid var(--line-dark); margin: 48px 0; }
 .method-steps { border-top: 1px solid var(--line-dark); margin: 26px 0 42px; }
@@ -61,6 +71,7 @@
 .citation-card a { border-color: var(--paper-dim); color: var(--paper); overflow-wrap: anywhere; }
 .citation-card a:hover { border-color: var(--acid); color: var(--acid); }
 
+/* Side facts and navigation */
 .fact-stack { display: grid; gap: 12px; align-content: start; }
 .fact-card { background: var(--ink); color: var(--paper); padding: 23px; }
 .fact-card.acid { background: var(--acid); color: var(--ink); }
@@ -72,13 +83,16 @@
 .fact-nav { border-top: 1px solid var(--line-dark); margin-top: 24px; }
 .fact-nav a { border-bottom: 1px solid var(--line-dark); display: block; font-size: 12px; font-weight: 700; letter-spacing: .08em; padding: 14px 0; text-transform: uppercase; }
 .fact-nav a:hover { color: #637b16; }
+.fact-nav.work-more { margin-top: 40px; }
 
+/* Closing band */
 .page-band { background: var(--ink); color: var(--paper); padding: 88px 7vw; }
 .page-band-inner { align-items: end; display: flex; gap: 7vw; justify-content: space-between; margin: 0 auto; max-width: 1180px; }
 .page-band h2 { font-size: clamp(43px, 5vw, 74px); max-width: 640px; }
 .page-band h2 em { color: var(--acid); }
 .page-band p { color: var(--paper-dim); font-size: 16px; line-height: 1.45; margin: 0; max-width: 300px; }
 
+/* Index pages (research, digests hub) */
 .index-intro { margin-bottom: 67px; max-width: 730px; }
 .index-intro h2 { font-size: clamp(45px, 5.5vw, 78px); }
 .index-intro p { color: #505a53; font-size: 18px; line-height: 1.5; margin: 30px 0 0; max-width: 600px; }
@@ -93,6 +107,7 @@
 .index-card p { font-size: 14px; line-height: 1.4; margin: 0; max-width: 400px; }
 .index-card .card-link { border-top: 1px solid currentColor; font: 10px var(--mono); letter-spacing: .12em; margin-top: 24px; padding-top: 14px; text-transform: uppercase; }
 
+/* About */
 .about-grid { display: grid; gap: 8vw; grid-template-columns: 1fr 1fr; }
 .about-grid h2 { font-size: clamp(46px, 5vw, 76px); }
 .about-grid p { color: #505a53; font-size: 17px; line-height: 1.55; }
@@ -105,12 +120,14 @@
 .contact-panel p { font-size: 18px; line-height: 1.4; margin: 0 0 22px; max-width: 470px; }
 .contact-panel a { border-bottom: 1px solid var(--ink); font: 11px var(--mono); letter-spacing: .12em; padding-bottom: 7px; text-transform: uppercase; }
 
+/* Privacy */
 .controller-block { border-top: 1px solid var(--line-dark); margin: 8px 0 42px; }
 .controller-row { border-bottom: 1px solid var(--line-dark); display: grid; gap: 12px 24px; grid-template-columns: 150px 1fr; margin: 0; padding: 15px 0; }
 .controller-row dt { color: #69716b; font: 10px var(--mono); letter-spacing: .1em; margin: 0; padding-top: 4px; text-transform: uppercase; }
 .controller-row dd { color: var(--ink); font-size: 16px; line-height: 1.45; margin: 0; }
 .fact-card.compact strong { font-size: 22px; letter-spacing: -.04em; line-height: 1.2; overflow-wrap: anywhere; }
 
+/* Responsive: 760px and below */
 @media (max-width: 760px) {
   .page-hero { min-height: 510px; padding: 128px 22px 60px; }
   .page-hero::after { height: 330px; right: -200px; top: 170px; width: 470px; }
@@ -140,6 +157,7 @@
   .controller-row { gap: 6px; grid-template-columns: 1fr; }
 }
 
+/* Delegation handbook page */
 .handbook-hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, .8fr); gap: 7vw; align-items: center; }
 .handbook-hero h1 { font-size: clamp(58px, 6.8vw, 100px); }
 .handbook-author { color: var(--paper-dim); font: 11px var(--mono); line-height: 1.6; margin-top: 25px; }
