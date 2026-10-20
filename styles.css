@@ -159,3 +159,18 @@ em { color: var(--acid); font-family: var(--serif); font-style: italic; font-wei
   .handbook-feature { grid-template-columns: 1fr; gap: 28px; padding: 25px; }
   .handbook-feature img { max-width: 160px; }
 }
+
+/* eUSD Economics Lab research feature */
+.eusd-feature{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:45px;background:var(--ink);color:var(--paper);padding:42px;margin-bottom:32px}
+.eusd-feature .mono-label{color:var(--acid);font-size:10px}
+.eusd-feature h3{font-size:clamp(34px,4.5vw,64px);line-height:1;letter-spacing:-.06em;margin:24px 0}
+.eusd-feature h3 em{color:var(--acid)}
+.eusd-feature-copy>p:not(.mono-label){font-size:15px;line-height:1.6;max-width:490px;color:var(--paper-dim)}
+.eusd-feature .card-link{display:inline-block;border-bottom:1px solid currentColor;padding-bottom:8px;margin-top:15px;font-size:13px}
+.eusd-feature:hover .card-link{color:var(--acid)}
+.eusd-feature:focus-visible{outline:3px solid #799922;outline-offset:5px}
+.eusd-feature-visual{border:1px solid #354039;padding:22px;background:#111812}
+.eusd-feature-badge{font:10px var(--mono);letter-spacing:.12em;color:var(--paper-dim)}
+.eusd-feature-visual svg{display:block;width:100%;height:auto;margin:24px 0 14px}
+.eusd-feature-facts{display:flex;gap:16px;flex-wrap:wrap;font:10px var(--mono);color:var(--paper-dim)}
+@media(max-width:760px){.eusd-feature{grid-template-columns:1fr;gap:28px;padding:25px}.eusd-feature h3{font-size:clamp(36px,9vw,58px)}.eusd-feature-visual{max-width:440px;width:100%}}

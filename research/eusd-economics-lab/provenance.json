@@ -1,0 +1,330 @@
+{
+  "retrieved_date": "2026-10-20",
+  "workbook_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+  "history": [
+    {
+      "date": "2026-02-26",
+      "sheet": "SS 260226",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 10039133.0,
+      "uglycash_balance": 11448871.0,
+      "sentz_balance": 1132994.0,
+      "total_supply": 22620998.0,
+      "snapshot_proposed_staker_share": 0.4437970862,
+      "fintech_balance": 12581865.0,
+      "counterfactual_90_10_staker_share": 0.49941737760641686
+    },
+    {
+      "date": "2026-03-12",
+      "sheet": "SS 12032026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [
+        "Internal date cell incorrectly serializes to 3 Dec; used tab and forum topic 1470 date 12 March."
+      ],
+      "direct_balance": 9514412.0,
+      "uglycash_balance": 12313213.0,
+      "sentz_balance": 1134054.0,
+      "total_supply": 22961679.0,
+      "snapshot_proposed_staker_share": 0.472924419,
+      "fintech_balance": 13447267.0,
+      "counterfactual_90_10_staker_share": 0.4729244189852144
+    },
+    {
+      "date": "2026-03-26",
+      "sheet": "SS 26032026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 8584865.0,
+      "uglycash_balance": 12230223.0,
+      "sentz_balance": 1134054.0,
+      "total_supply": 21949142.0,
+      "snapshot_proposed_staker_share": 0.4520127803,
+      "fintech_balance": 13364277.0,
+      "counterfactual_90_10_staker_share": 0.4520127802717755
+    },
+    {
+      "date": "2026-04-09",
+      "sheet": "SS 09042026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [
+        "Internal date cell incorrectly serializes to 4 Sep; used tab and forum topic 1510 date 9 April."
+      ],
+      "direct_balance": 8914645.0,
+      "uglycash_balance": 12846988.0,
+      "sentz_balance": 1135662.0,
+      "total_supply": 22897295.0,
+      "snapshot_proposed_staker_share": 0.450398617,
+      "fintech_balance": 13982650.0,
+      "counterfactual_90_10_staker_share": 0.4503986169545355
+    },
+    {
+      "date": "2026-04-23",
+      "sheet": "SS 23042026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 8124436.0,
+      "uglycash_balance": 12935322.0,
+      "sentz_balance": 1136781.0,
+      "total_supply": 22196539.0,
+      "snapshot_proposed_staker_share": 0.429420384,
+      "fintech_balance": 14072103.0,
+      "counterfactual_90_10_staker_share": 0.4294203839616618
+    },
+    {
+      "date": "2026-05-07",
+      "sheet": "SS 07052026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 8367860.0,
+      "uglycash_balance": 14189511.0,
+      "sentz_balance": 1138060.0,
+      "total_supply": 23695431.0,
+      "snapshot_proposed_staker_share": 0.4178281079,
+      "fintech_balance": 15327571.0,
+      "counterfactual_90_10_staker_share": 0.41782810787446745
+    },
+    {
+      "date": "2026-05-21",
+      "sheet": "SS 21052026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 9085516.0,
+      "uglycash_balance": 13484090.0,
+      "sentz_balance": 1139128.0,
+      "total_supply": 23708734.0,
+      "snapshot_proposed_staker_share": 0.444892494,
+      "fintech_balance": 14623218.0,
+      "counterfactual_90_10_staker_share": 0.44489249404881764
+    },
+    {
+      "date": "2026-06-04",
+      "sheet": "SS 04062026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 8250074.0,
+      "uglycash_balance": 14182153.0,
+      "sentz_balance": 1139513.0,
+      "total_supply": 23571740.0,
+      "snapshot_proposed_staker_share": 0.4149986637,
+      "fintech_balance": 15321666.0,
+      "counterfactual_90_10_staker_share": 0.4149986636540196
+    },
+    {
+      "date": "2026-06-19",
+      "sheet": "SS 19062026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 7790134.0,
+      "uglycash_balance": 14406305.0,
+      "sentz_balance": 1142006.0,
+      "total_supply": 23338445.0,
+      "snapshot_proposed_staker_share": 0.4004107857,
+      "fintech_balance": 15548311.0,
+      "counterfactual_90_10_staker_share": 0.40041078572287053
+    },
+    {
+      "date": "2026-07-02",
+      "sheet": "SS 02072026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 7951329.0,
+      "uglycash_balance": 14466433.0,
+      "sentz_balance": 1142006.0,
+      "total_supply": 23559768.0,
+      "snapshot_proposed_staker_share": 0.4037464588,
+      "fintech_balance": 15608439.0,
+      "counterfactual_90_10_staker_share": 0.40374645879365195
+    },
+    {
+      "date": "2026-07-16",
+      "sheet": "SS 16072026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 7388969.0,
+      "uglycash_balance": 14714003.0,
+      "sentz_balance": 1142930.0,
+      "total_supply": 23245902.0,
+      "snapshot_proposed_staker_share": 0.3860750295,
+      "fintech_balance": 15856933.0,
+      "counterfactual_90_10_staker_share": 0.38607502948261596
+    },
+    {
+      "date": "2026-08-02",
+      "sheet": "SS 30082026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [
+        "Sheet tab says 30 Aug but internal snapshot date is 2 Aug; matched to forum topic 1597 dated 2 Aug."
+      ],
+      "direct_balance": 6702624.0,
+      "uglycash_balance": 14841499.0,
+      "sentz_balance": 1146630.0,
+      "total_supply": 22690753.0,
+      "snapshot_proposed_staker_share": 0.365851098,
+      "fintech_balance": 15988129.0,
+      "counterfactual_90_10_staker_share": 0.3658510980221767
+    },
+    {
+      "date": "2026-08-13",
+      "sheet": "SS 13082026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 5492035.0,
+      "uglycash_balance": 15733334.0,
+      "sentz_balance": 1147922.0,
+      "total_supply": 22373291.0,
+      "snapshot_proposed_staker_share": 0.3209255447,
+      "fintech_balance": 16881256.0,
+      "counterfactual_90_10_staker_share": 0.3209255446594781
+    },
+    {
+      "date": "2026-08-27",
+      "sheet": "SS 27082026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 5736403.0,
+      "uglycash_balance": 15760335.0,
+      "sentz_balance": 1147922.0,
+      "total_supply": 22644660.0,
+      "snapshot_proposed_staker_share": 0.3279902944,
+      "fintech_balance": 16908257.0,
+      "counterfactual_90_10_staker_share": 0.3279902944005342
+    },
+    {
+      "date": "2026-09-10",
+      "sheet": "SS 10092026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 5432454.0,
+      "uglycash_balance": 16303374.0,
+      "sentz_balance": 1147922.0,
+      "total_supply": 22883750.0,
+      "snapshot_proposed_staker_share": 0.3136541694,
+      "fintech_balance": 17451296.0,
+      "counterfactual_90_10_staker_share": 0.3136541694433823
+    },
+    {
+      "date": "2026-09-24",
+      "sheet": "SS 24092026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 5344743.0,
+      "uglycash_balance": 16224187.0,
+      "sentz_balance": 1151970.0,
+      "total_supply": 22720900.0,
+      "snapshot_proposed_staker_share": 0.3117111866,
+      "fintech_balance": 17376157.0,
+      "counterfactual_90_10_staker_share": 0.31171118661672736
+    },
+    {
+      "date": "2026-10-08",
+      "sheet": "SS 08102026",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pSPZCcc86TpxB48uA67MoSrcuPWdayRVU92jQ0OexJg/edit",
+      "source_type": "published governance balance snapshot, not independent RPC verification",
+      "notes": [],
+      "direct_balance": 5519270.0,
+      "uglycash_balance": 16571667.0,
+      "sentz_balance": 1153900.0,
+      "total_supply": 23244837.0,
+      "snapshot_proposed_staker_share": 0.3136966157,
+      "fintech_balance": 17725567.0,
+      "counterfactual_90_10_staker_share": 0.3136966157258922
+    }
+  ],
+  "latest_wallets": [
+    {
+      "owner": "UGLYCASH",
+      "address": "0x26d515f0b36d4443b1abf4a78425aefb1d7b73ed",
+      "network": "Base",
+      "reported_balance": 16232018.0
+    },
+    {
+      "owner": "UGLYCASH",
+      "address": "0x9e35980dc3d882556762f5dd1f3314c9868229ab",
+      "network": "Base",
+      "reported_balance": 14671.0
+    },
+    {
+      "owner": "UGLYCASH",
+      "address": "0xd74131744859d11498a134b65bae9dcd4ecb74c9",
+      "network": "Base",
+      "reported_balance": 234613.0
+    },
+    {
+      "owner": "UGLYCASH",
+      "address": "0x12ec148a193ba7b3a141ce6d02ade326883d28d9",
+      "network": "Ethereum",
+      "reported_balance": 90365.0
+    },
+    {
+      "owner": "UGLYCASH",
+      "address": "0x8b34fff1fcb661ac08fbb6a256bab3230c8456f8",
+      "network": "Ethereum",
+      "reported_balance": null
+    },
+    {
+      "owner": "UGLYCASH",
+      "address": "0x5918ebb3cc7945255347b700ffe9f5ebf467f673",
+      "network": "Ethereum",
+      "reported_balance": null
+    },
+    {
+      "owner": "UGLYCASH",
+      "address": "0x4fddece89a1bdeab8114d4c1399bc9acefdeda5a",
+      "network": "Base",
+      "reported_balance": null
+    },
+    {
+      "owner": "UGLYCASH",
+      "address": "0x45bed44e035d1c3220830a4dd1c9df61f207bd81",
+      "network": "Base",
+      "reported_balance": null
+    },
+    {
+      "owner": "Sentz",
+      "address": "0x30da4eb397215cf407c46854ca7188f4e60f3402",
+      "network": "Ethereum",
+      "reported_balance": 1060002.0
+    },
+    {
+      "owner": "Sentz",
+      "address": "0x2e3f334f9035aab204347508415dec785cd5075e",
+      "network": "Ethereum",
+      "reported_balance": 93898.0
+    }
+  ],
+  "rules": {
+    "current_rule": "Fintech allocated yield = 90% \u00d7 its qualifying balance / total eUSD supply \u00d7 total distributable revenue. Stakers receive remainder (100% of direct-balance-attributable yield + 10% of fintech-balance-attributable yield).",
+    "current_rule_source": "https://forum.reserve.org/t/ip-revenue-share-programme-fintech-revenue-share-adjustment/1463",
+    "original_program_source": "https://forum.reserve.org/t/rfc-eusd-rev-share-with-fintech-apps/801",
+    "latest_snapshot_source": "https://forum.reserve.org/t/rfc-eusd-revenue-share-programme-update-08-10-2026/1664",
+    "operational_threshold": "Biweekly snapshots; advance to IP only when any recipient calculated allocation differs >=3% relative from current on-chain allocation, per Oct 8 RFC. Snapshot proposed shares therefore need not equal actual paid shares.",
+    "fixed_rule_model": "Flat staker share applies to all distributable yield. For a simple comparison, remainder allocated to UC/Sentz proportional to qualifying balances, but this is an illustrative design choice rather than an established proposal.",
+    "fees": "Workbook allocation formulas sum to 100% and Oct sheet has no separate fee/champion allocation; original historical sheets have zero proposed champion share. Source does not establish whether all raw collateral yield reaches distributable revenue. Use effective distributable yield input or expose fee haircut; do not imply raw basket APY equals net distributable yield."
+  },
+  "limitations": [
+    "History is governance-reported snapshots, not independently verified blockchain balances.",
+    "Direct balance is residual total supply less qualifying fintech wallets; label outside fintech, not individual end-user balances.",
+    "No current or historical RSR token price or staked token quantity in snapshot tabs. $4.3m staked appears only in February illustrative comparison and is not a current observation.",
+    "Do not draw actual historical APR or OC without historical staked RSR value.",
+    "Historical proposed shares used old 100/0 rule in early records; counterfactual 90/10 column explicitly recalculates every date using current rule.",
+    "Snapshot wallet coverage includes Ethereum and Base; independent RPC reconstruction must avoid counting canonical bridge escrow and bridged supply twice.",
+    "Current rule allocation has governance lag and 3% threshold; continuous formula simulation abstracts these operational frictions."
+  ]
+}

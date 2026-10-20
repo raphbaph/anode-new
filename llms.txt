@@ -23,6 +23,8 @@ Anode helps groups turn many perspectives into coherent action. Its practice com
 
 ## Research
 
+- [eUSD Economics Lab](https://www.anode.gg/research/eusd-economics-lab/): Anode × Reserve simulator comparing current revenue sharing, a fixed take rate and an OC-responsive rule. Includes historical balance snapshots, editable scenarios, RSR market pricing and CSV export.
+
 - [The DAO Delegation Handbook](https://www.anode.gg/research/dao-delegation-handbook/): Handbook 002 by Enrique Alles Fernandez, V2 / September 2026. An overview, chapter guide and original PDF on delegated governance authority, mandates, incentives, revocation and a practical architecture canvas.
 
 - [Research index](https://www.anode.gg/research/): Fieldwork, discourse analysis, and mechanism design across governance and networked organizations.
