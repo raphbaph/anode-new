@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-10-21</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-10-21/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-21/</guid>
+      <pubDate>Wed, 21 Oct 2026 09:40:00 +0000</pubDate>
+      <description>SEEDGov voted FOR on Grant 2610, Recognized Delegate Compensation for September 2026.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-10-20</title>
       <link>https://www.anode.gg/digests/rootstock/2026-10-20/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-20/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-21/</guid>
       <pubDate>Mon, 21 Sep 2026 09:40:00 +0000</pubDate>
       <description>DAOplomats voted FOR the 1delta Intents Milestone 1 tranche, citing volume-locked funding and the small upfront audit ask; otherwise quiet.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-09-20</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-09-20/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-20/</guid>
-      <pubDate>Sun, 20 Sep 2026 09:40:00 +0000</pubDate>
-      <description>Quiet day on the Rootstock forum with no new topics, posts or proposal activity.</description>
     </item>
   </channel>
 </rss>
