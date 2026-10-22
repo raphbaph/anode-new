@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-10-22</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-10-22/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-22/</guid>
+      <pubDate>Thu, 22 Oct 2026 09:40:00 +0000</pubDate>
+      <description>No new topics or proposals; replies in the 1delta, SwaptoX and delegate threads, with a conditional Against vote on the Winks.fun milestone 3 payout.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-10-21</title>
       <link>https://www.anode.gg/digests/rootstock/2026-10-21/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-21/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-22/</guid>
       <pubDate>Tue, 22 Sep 2026 09:40:00 +0000</pubDate>
       <description>Two new grant proposals (Kleros Foresight M1, Rootstock Builder Hub at LABITCONF 2026) and continued questioning of Winks.fun usage.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-09-21</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-09-21/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-21/</guid>
-      <pubDate>Mon, 21 Sep 2026 09:40:00 +0000</pubDate>
-      <description>DAOplomats voted FOR the 1delta Intents Milestone 1 tranche, citing volume-locked funding and the small upfront audit ask; otherwise quiet.</description>
     </item>
   </channel>
 </rss>
