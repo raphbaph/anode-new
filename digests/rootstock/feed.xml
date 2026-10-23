@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-10-23</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-10-23/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-23/</guid>
+      <pubDate>Fri, 23 Oct 2026 09:40:00 +0000</pubDate>
+      <description>New Predge grant proposal for a payments verdict layer; delegates report FOR votes on September delegate compensation, with a question on a 3,500 versus 3,750 transfer discrepancy.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-10-22</title>
       <link>https://www.anode.gg/digests/rootstock/2026-10-22/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-22/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-23/</guid>
       <pubDate>Wed, 23 Sep 2026 09:40:00 +0000</pubDate>
       <description>Milestone updates on existing grants: SwaptoX compared audit quotes, Builder Hub drew broad support, Kleros got a positive first delegate reply.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-09-22</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-09-22/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-22/</guid>
-      <pubDate>Tue, 22 Sep 2026 09:40:00 +0000</pubDate>
-      <description>Two new grant proposals (Kleros Foresight M1, Rootstock Builder Hub at LABITCONF 2026) and continued questioning of Winks.fun usage.</description>
     </item>
   </channel>
 </rss>
