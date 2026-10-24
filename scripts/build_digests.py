@@ -274,8 +274,8 @@ def parse_edition(path: Path, expected_feed: str) -> Edition:
     summary = meta["summary"]
     if not summary:
         raise DigestError(f"{label}: summary must not be empty")
-    if len(summary) > 200:
-        raise DigestError(f"{label}: summary is {len(summary)} chars (max 200)")
+    # A presentation-length preference must not discard a valid daily edition.
+    # Retain the complete summary rather than truncating factual content.
 
     try:
         d = date.fromisoformat(meta["date"])
@@ -284,7 +284,7 @@ def parse_edition(path: Path, expected_feed: str) -> Edition:
     if meta["date"] != path.stem:
         raise DigestError(f'{label}: date "{meta["date"]}" does not match filename "{path.stem}"')
 
-    body = m.group(2)
+    body = "\n".join(line.lstrip() for line in m.group(2).splitlines())
     if meta["quiet"] == "true":
         # Quiet-day generators sometimes emit the standard empty headings.
         # Remove only those known headings; substantive content must still fail.
@@ -293,6 +293,15 @@ def parse_edition(path: Path, expected_feed: str) -> Edition:
             if line.strip() not in ({"## " + title for title in SECTION_ORDER}
                                     | {"Nothing scheduled in this window."})
         ).strip()
+    if meta["quiet"] == "true":
+        empty_phrases = {QUIET_LINE, "Nothing scheduled in this window.",
+                         "None in this window.", "None.",
+                         "No new topics on the forum in this window.",
+                         "No new posts in this window.", "No discussion to assess.",
+                         "No discussion to characterize."}
+        remaining = [line.strip() for line in body.splitlines() if line.strip()]
+        if remaining and all(line in empty_phrases for line in remaining):
+            body = QUIET_LINE
     body_errors = validate_body(body, meta["quiet"] == "true")
     if body_errors:
         raise DigestError(label + ": " + "; ".join(body_errors[:10]))
@@ -703,7 +712,7 @@ def latest_field_card(feed: str, editions: list[Edition]) -> str:
         '<article class="field-card">'
         f'<p class="field-card-meta mono-label"><span>{esc(name)}</span><span>{meta_right}</span></p>'
         f'<p class="field-card-summary">{summary}</p>'
-        f'<a class="field-card-link" href="{href}"><span>{label}</span><span aria-hidden="true">\u2197</span></a>'
+        f'<a class="field-card-link" href="{href}"><span>{label}</span><span aria-hidden="true"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="square" aria-hidden="true" focusable="false" style="display:inline-block;vertical-align:middle"><path d="M5 19L19 5M5 5H19V19" /></svg></span></a>'
         "</article>"
     )
 

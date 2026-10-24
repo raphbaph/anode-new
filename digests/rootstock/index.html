@@ -42,44 +42,35 @@
       </header>
       <!-- /partial:header -->
       <main>
-        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Rootstock Collective</p><h1 id="page-title">Rootstock Collective<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the gov.rootstockcollective.xyz forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-10-23</span></div></div></section>
+        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Rootstock Collective</p><h1 id="page-title">Rootstock Collective<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the gov.rootstockcollective.xyz forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-10-24</span></div></div></section>
         <section class="page-content" aria-label="Digest content"><div class="page-content-inner">
           <p class="digest-note">Independent daily summary of public forum activity, compiled by Anode Research. Not an official communication of Reserve or Rootstock Collective. Anode participates in both as a delegate.</p>
           <div class="article-copy digest-body">
-<h2>Latest edition: 2026-10-23</h2>
+<h2>Latest edition: 2026-10-24</h2>
 <h2>Proposals and RFCs</h2>
-<ul>
-<li>New grant proposal, topic 1009: [Grant Proposal] Predge, a verdict layer so Rootstock payments can be disputed without an escrow agent (Grants &amp; Incentives). Requested 30,000 USD equivalent, milestone-gated in three tranches. Applicant Predge (predge.io), a solo founder; individual KYC submitted via Persona on 7 Oct 2026, pending confirmation. Prior Rootstock work: rsk-l402, an L402 to x402 bridge adapter shipped August 2026. https://gov.rootstockcollective.xyz/t/1009</li>
-<li>Grant 2610, Recognized Delegate Compensation for September 2026: Axia (topic 694), Curia (topic 438) and Tane (topic 463) each reported a FOR vote.</li>
-</ul>
+<p>No new grant proposals were posted in this window. The applicant on grant 2610 (Predge, disputable USDRIF payments on Rootstock without an escrow agent) posted a Milestone 1 progress update and two follow-ups on topic 1009: https://gov.rootstockcollective.xyz/t/1009</p>
 <h2>New topics</h2>
-<ul>
-<li>[Grant Proposal] Predge, a verdict layer so Rootstock payments can be disputed without an escrow agent (Grants &amp; Incentives, 2 posts). https://gov.rootstockcollective.xyz/t/1009</li>
-</ul>
+<p>None.</p>
 <h2>Discussion by topic</h2>
 <ul>
-<li>Grant 2610 (delegate votes): Axia voted FOR the payments to September-qualified delegates. Curia voted FOR, supporting continuation of the compensation program. Tane voted FOR, following the posted September results, but noted the executable transfers 3,500 USDRIF while the results table totals 3,750 and asked Anode to confirm how the difference will be addressed. Tane disclosed being a beneficiary of the compensation.</li>
-<li>Topic 622, Introducing Recognized Delegate Compensation: Curia said event-related initiatives are not a current priority. Raphael_Anode (Anode) said anything that increases staking and vault usage should have a strong case for a share of growth. IBUKI proposed a small pilot to connect local education with measurable ecosystem outcomes such as new users exploring Rootstock applications.</li>
-<li>Topic 929, [2608 Grant Proposal] 1delta Intents: Tane asked how the per-user cap of about 1,000 USDRIF and the total cap are enforced before further promotion, including a raffle and official announcement. Achthar said the cap is enforced by the UI, with a warning under the input amount, and an overall fill limit of 25,000 USD applied the same way.</li>
-<li>Topic 94, General Guidelines for Grant Applications: Nihar_Areta_Market said audit support has become an unsolved pain point, with teams struggling to collect quotes from security firms and delegates sifting through what seems reasonable case by case.</li>
-<li>Topic 1009, Predge: the proposal post, followed by an update for delegates with two corrections: already running on Rootstock testnet since August, source at github.com/predgeAI/predge-rootstock, with contracts PredgeAgentValidator 0x7041Ed7B6D33F6A8D2605b120194645765d67a85, AgentJob 0x2Bf0EaAc5FA4EaF36AA3a55883F6ba642385690E and VerdictAnchor 0xDCf119ACd13d89F2926fF792070c6dA4d4134356; one verdict batch has been anchored end to end.</li>
+<li>Topic 1009, [2610 Grant] Predge, Milestone 1 (Grants &amp; Incentives):</li>
+<li>predge reported the external pre-audit scan of v2 is complete (Olympix, automated, at no cost to the grant). Every confirmed finding is fixed, each with its own regression test. In the mutation run the test suite killed 203 of 211 mutants; the remaining non-equivalent ones are now covered too. One design change came out of it: the contract now rejects a job ve... (truncated in fetch).</li>
+<li>predge corrected the demand section on 1delta Intents. Achim from 1delta clarified their fills settle atomically: the settlement contract checks the signed minimum and deadline in the same transaction, so a fill cannot land on worse terms and there is nothing to recourse afterwards. predge acknowledged the earlier &quot;fill delivered at quoted terms&quot; line was wrong and is exploring a different fit with 1delta.</li>
+<li>IBUKI called the proposal interesting, especially defining acceptance criteria before payment. From a Japan-based business perspective, IBUKI flagged the challenge of making those criteria clear enough for both parties, noting that disagreements in real transactions often arise not because work was never delivered but because buyer and service provider differ on what was agreed.</li>
 </ul>
 <h2>Sentiment</h2>
-<ul>
-<li>Grant 2610: supportive; all reported votes were FOR, with one data-point concern from Tane on the 3,500 versus 3,750 total.</li>
-<li>Topic 622: supportive and constructive, with delegates weighing how compensation could reward ecosystem growth.</li>
-<li>Topic 929: constructive Q&amp;A; the cap-enforcement question raised by Tane was answered by Achthar.</li>
-<li>Topic 1009: new proposal with no delegate feedback yet.</li>
-</ul>
+<p>Supportive and constructive. IBUKI&#x27;s reply is positive and raises a practical point about the clarity of acceptance criteria rather than objecting to the grant. predge&#x27;s posts are transparent updates and a good-faith correction after external feedback.</p>
 <h2>What to watch</h2>
 <ul>
-<li>Tane asked Anode to confirm how the difference between the 3,500 USDRIF executable transfer and the 3,750 total in the September results for Grant 2610 will be addressed.</li>
-<li>Predge reported an end-to-end verdict batch anchored on Rootstock testnet; the individual KYC submitted on 7 Oct 2026 remains pending confirmation.</li>
+<li>Milestone 1 of grant 2610 (Predge) is progressing: pre-audit complete, all findings fixed, strong mutation-test coverage. The milestone deliverable is to be tracked against the acceptance criteria.</li>
+<li>IBUKI raised the question of how acceptance criteria are made clear for milestone-gated grants.</li>
+<li>No votes opening or closing and no new applicants in this window.</li>
 </ul>
-<p><a href="/digests/rootstock/2026-10-23/">Permalink to this edition ↗</a></p>
+<p><a href="/digests/rootstock/2026-10-24/">Permalink to this edition ↗</a></p>
 <hr class="article-rule" />
 <h2>Archive</h2>
 <ul class="digest-archive">
+<li><a href="/digests/rootstock/2026-10-24/"><span class="digest-archive-date">2026-10-24</span><span class="digest-archive-summary">Predge posted a Milestone 1 update and a correction on grant 2610; IBUKI replied on acceptance criteria. No new topics.</span></a></li>
 <li><a href="/digests/rootstock/2026-10-23/"><span class="digest-archive-date">2026-10-23</span><span class="digest-archive-summary">New Predge grant proposal for a payments verdict layer; delegates report FOR votes on September delegate compensation, with a question on a 3,500 versus 3,750 transfer discrepancy.</span></a></li>
 <li><a href="/digests/rootstock/2026-10-22/"><span class="digest-archive-date">2026-10-22</span><span class="digest-archive-summary">No new topics or proposals; replies in the 1delta, SwaptoX and delegate threads, with a conditional Against vote on the Winks.fun milestone 3 payout.</span></a></li>
 <li><a href="/digests/rootstock/2026-10-21/"><span class="digest-archive-date">2026-10-21</span><span class="digest-archive-summary">SEEDGov voted FOR on Grant 2610, Recognized Delegate Compensation for September 2026.</span></a></li>
@@ -87,6 +78,7 @@
 <li><a href="/digests/rootstock/2026-10-19/"><span class="digest-archive-date">2026-10-19</span><span class="digest-archive-summary">No new topics or posts on the Rootstock Collective forum in this window.</span></a></li>
 <li><a href="/digests/rootstock/2026-10-18/"><span class="digest-archive-date">2026-10-18</span><span class="digest-archive-summary">IBUKI welcomed the four-week observation window for the 2606 Grant Andromeda Core; no new topics or proposals.</span></a></li>
 <li><a href="/digests/rootstock/2026-10-17/"><span class="digest-archive-date">2026-10-17</span><span class="digest-archive-summary">SwaptoX requested another extension on Milestone 3 of the 2601 Grant; no new topics or proposals.</span></a></li>
+<li><a href="/digests/rootstock/2026-10-16/"><span class="digest-archive-date">2026-10-16</span><span class="digest-archive-summary">No new topics or posts on the Rootstock Collective forum in this window.</span></a></li>
 <li><a href="/digests/rootstock/2026-10-15/"><span class="digest-archive-date">2026-10-15</span><span class="digest-archive-summary">The Andromeda 4-week RIF staking observation window goes live across official channels, and delegate Tane questions the value of the Kleros Foresight milestone 1 budget.</span></a></li>
 <li><a href="/digests/rootstock/2026-10-14/"><span class="digest-archive-date">2026-10-14</span><span class="digest-archive-summary">The Andromeda 4-week RIF staking pilot goes live across official channels; the Rootstock Builder Hub LABITCONF proposal is withdrawn, and Kleros Foresight answers liquidity questions on milestone 1.</span></a></li>
 <li><a href="/digests/rootstock/2026-10-13/"><span class="digest-archive-date">2026-10-13</span><span class="digest-archive-summary">The September recognized delegate compensation results are published, with ChronoTrigger leading at 630 USDRIF, ahead of an upcoming payment proposal.</span></a></li>

@@ -26,6 +26,15 @@ class QuietEditionTests(unittest.TestCase):
         with self.assertRaises(DigestError):
             self.parse('## New topics\n- A new proposal appeared.\n' + QUIET_LINE)
 
+    def test_actual_rejected_editions_are_publishable(self):
+        for feed, day in [('reserve', '2026-10-20'), ('reserve', '2026-10-24'),
+                          ('rootstock', '2026-10-16'), ('rootstock', '2026-10-24')]:
+            directory = 'reserve_forum_monitor' if feed == 'reserve' else 'rootstock_monitor'
+            path = Path(__file__).parent / 'fixtures/rejected' / feed / (day + '.md')
+            with self.subTest(path=path):
+                edition = parse_edition(path, feed)
+                self.assertTrue(edition.body_html)
+
     def test_canonical_quiet_edition_still_works(self):
         self.assertIn(QUIET_LINE, self.parse(QUIET_LINE).body_html)
 
