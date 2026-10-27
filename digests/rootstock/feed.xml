@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-10-27</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-10-27/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-27/</guid>
+      <pubDate>Tue, 27 Oct 2026 09:40:00 +0000</pubDate>
+      <description>Carl posted a new grant proposal, RPCDrift, an RPC compatibility and regression testing toolkit. Grant 2610 (Predge) drew supportive replies from Seviramar and IBUKI.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-10-26</title>
       <link>https://www.anode.gg/digests/rootstock/2026-10-26/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-26/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-28/</guid>
       <pubDate>Mon, 28 Sep 2026 09:40:00 +0000</pubDate>
       <description>The Rootstock Yield Vault proposal (topic 970) was paused before any on-chain step; a supportive comment landed on the Builder Hub proposal.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-09-27</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-09-27/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-27/</guid>
-      <pubDate>Sun, 27 Sep 2026 09:40:00 +0000</pubDate>
-      <description>No new topics; 7 posts across 6 grant threads, two FOR votes on 1delta Intents M1 and a cooling stance on the Yield Vault demand gate.</description>
     </item>
   </channel>
 </rss>
