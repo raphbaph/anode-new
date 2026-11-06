@@ -7,6 +7,20 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-06</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-06/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-06/</guid>
+      <pubDate>Fri, 06 Nov 2026 09:40:00 +0000</pubDate>
+      <description>No new topics; one new post. DAOstar_gov asked SwaptoX to document how API incidents are communicated to integrators.</description>
+    </item>
+    <item>
+      <title>Rootstock Collective governance digest: 2026-11-05</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-05/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-05/</guid>
+      <pubDate>Thu, 05 Nov 2026 09:40:00 +0000</pubDate>
+      <description>No new proposals; two pre-AMA grants (Predge, RPCDrift) advanced through delegate scrutiny and the Andromeda pilot posted interim metrics ahead of its Nov 11 report.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-10-29</title>
       <link>https://www.anode.gg/digests/rootstock/2026-10-29/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-29/</guid>
@@ -201,20 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-02/</guid>
       <pubDate>Fri, 02 Oct 2026 09:40:00 +0000</pubDate>
       <description>13 replies across 5 existing grant threads; Winks.fun on-chain marker agreed and 30-day validation opening, Andromeda FES pilot count corrected.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-01</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-01/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-01/</guid>
-      <pubDate>Thu, 01 Oct 2026 09:40:00 +0000</pubDate>
-      <description>Quiet day, no new topics or proposals; M1 review on Kleros Foresight (977) and Andromeda Core (876) with methodology points incorporated.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-09-30</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-09-30/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-09-30/</guid>
-      <pubDate>Wed, 30 Sep 2026 09:40:00 +0000</pubDate>
-      <description>No new topics or proposals; delegate discussion across 1delta Intents, Kleros Foresight, Yield Vault and Andromeda Core grants.</description>
     </item>
   </channel>
 </rss>
