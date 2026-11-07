@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-07</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-07/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-07/</guid>
+      <pubDate>Sat, 07 Nov 2026 09:40:00 +0000</pubDate>
+      <description>No new topics; one new post. Tane restated on the Andromeda Core thread that stage payments only trigger after the pilot clears its gate.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-06</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-06/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-06/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-03/</guid>
       <pubDate>Sat, 03 Oct 2026 09:40:00 +0000</pubDate>
       <description>Quiet day on the forum, with no new topics, posts or proposal activity in the reporting window.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-02</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-02/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-02/</guid>
-      <pubDate>Fri, 02 Oct 2026 09:40:00 +0000</pubDate>
-      <description>13 replies across 5 existing grant threads; Winks.fun on-chain marker agreed and 30-day validation opening, Andromeda FES pilot count corrected.</description>
     </item>
   </channel>
 </rss>
