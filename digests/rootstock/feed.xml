@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-09</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-09/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-09/</guid>
+      <pubDate>Mon, 09 Nov 2026 09:40:00 +0000</pubDate>
+      <description>Two delegate votes, both For, on GRANT 2611 (Recognized Delegate Compensation) and no new topics on the forum in this window.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-08</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-08/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-08/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-05/</guid>
       <pubDate>Mon, 05 Oct 2026 09:40:00 +0000</pubDate>
       <description>Single post on the Andromeda Core grant (topic 876) confirming scope alignment with the reviewer and a shift into execution mode.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-04</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-04/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-04/</guid>
-      <pubDate>Sun, 04 Oct 2026 09:40:00 +0000</pubDate>
-      <description>No new topics or proposals; critical delegate push on the LABITCONF Builder Hub (topic 976) and supportive close-out on Andromeda Core M1 (876).</description>
     </item>
   </channel>
 </rss>
