@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-10</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-10/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-10/</guid>
+      <pubDate>Tue, 10 Nov 2026 09:40:00 +0000</pubDate>
+      <description>Three delegate votes, all For, on GRANT 2611 (Recognized Delegate Compensation) and no new topics on the forum in this window.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-09</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-09/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-09/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-06/</guid>
       <pubDate>Tue, 06 Oct 2026 09:40:00 +0000</pubDate>
       <description>Quiet day on the Rootstock Collective forum: no new proposals, topics or comments in the 24-hour window.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-05</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-05/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-05/</guid>
-      <pubDate>Mon, 05 Oct 2026 09:40:00 +0000</pubDate>
-      <description>Single post on the Andromeda Core grant (topic 876) confirming scope alignment with the reviewer and a shift into execution mode.</description>
     </item>
   </channel>
 </rss>
