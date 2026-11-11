@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-11</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-11/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-11/</guid>
+      <pubDate>Wed, 11 Nov 2026 09:40:00 +0000</pubDate>
+      <description>Three grantee updates (Predge, 1delta, Geyser) and two more For votes on GRANT 2611 delegate compensation, with no new topics.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-10</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-10/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-10/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-07/</guid>
       <pubDate>Wed, 07 Oct 2026 09:40:00 +0000</pubDate>
       <description>Governance at a Glance roundup posted (topic 995); Andromeda Core M1 AMA published on topic 876.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-06</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-06/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-06/</guid>
-      <pubDate>Tue, 06 Oct 2026 09:40:00 +0000</pubDate>
-      <description>Quiet day on the Rootstock Collective forum: no new proposals, topics or comments in the 24-hour window.</description>
     </item>
   </channel>
 </rss>
