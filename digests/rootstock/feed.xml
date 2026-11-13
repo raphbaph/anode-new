@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-13</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-13/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-13/</guid>
+      <pubDate>Fri, 13 Nov 2026 09:40:00 +0000</pubDate>
+      <description>Predge narrows Milestone 1 scope to on-chain verifiability, SwaptoX reports Milestone 3 with the DApp live on app.swaptox.com.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-12</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-12/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-12/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-09/</guid>
       <pubDate>Fri, 09 Oct 2026 09:40:00 +0000</pubDate>
       <description>One supportive comment by Manuvegadt on the Rootstock Builder Hub proposal (topic 976), praising the 90-day retention KPI.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-08</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-08/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-08/</guid>
-      <pubDate>Thu, 08 Oct 2026 09:40:00 +0000</pubDate>
-      <description>Winks.fun Milestone 3 vote live and contentious (Tané FOR, SEEDGov payment-before-KPI concern); 1delta and Builder Hub updates.</description>
     </item>
   </channel>
 </rss>
