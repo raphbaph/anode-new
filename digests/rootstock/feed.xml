@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-16</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-16/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-16/</guid>
+      <pubDate>Mon, 16 Nov 2026 09:40:00 +0000</pubDate>
+      <description>SwaptoX posted a Milestone 1 swap demonstration for the 2601 Grant SwaptoX Aggregator. No new topics.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-15</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-15/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-15/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-11/</guid>
       <pubDate>Sun, 11 Oct 2026 09:40:00 +0000</pubDate>
       <description>Delegates split on the Winks.fun M3 vote; Kaf_Anode raises questions on the Kleros Foresight and Andromeda milestones.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-10</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-10/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-10/</guid>
-      <pubDate>Sat, 10 Oct 2026 09:40:00 +0000</pubDate>
-      <description>Winks.fun M3 close-out deliberation with two conditional FOR votes (Axia, SEEDGov) and a status-visibility suggestion on topic 995.</description>
     </item>
   </channel>
 </rss>

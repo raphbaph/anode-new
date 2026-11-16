@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/reserve/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Reserve Protocol governance digest: 2026-11-16</title>
+      <link>https://www.anode.gg/digests/reserve/2026-11-16/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/reserve/2026-11-16/</guid>
+      <pubDate>Mon, 16 Nov 2026 09:40:00 +0000</pubDate>
+      <description>R72 posted a monthly delegate summary covering a corrected eUSD Revenue Share Programme vote and support for governance security upgrades.</description>
+    </item>
+    <item>
       <title>Reserve Protocol governance digest: 2026-11-14</title>
       <link>https://www.anode.gg/digests/reserve/2026-11-14/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/reserve/2026-11-14/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/reserve/2026-10-11/</guid>
       <pubDate>Sun, 11 Oct 2026 09:40:00 +0000</pubDate>
       <description>No new topics or posts on the Reserve governance forum in this window.</description>
-    </item>
-    <item>
-      <title>Reserve Protocol governance digest: 2026-10-10</title>
-      <link>https://www.anode.gg/digests/reserve/2026-10-10/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/reserve/2026-10-10/</guid>
-      <pubDate>Sat, 10 Oct 2026 09:40:00 +0000</pubDate>
-      <description>Quiet day on the Reserve Protocol forum, with no new topics or posts in the window.</description>
     </item>
   </channel>
 </rss>
