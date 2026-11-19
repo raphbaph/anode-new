@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/reserve/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Reserve Protocol governance digest: 2026-11-19</title>
+      <link>https://www.anode.gg/digests/reserve/2026-11-19/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/reserve/2026-11-19/</guid>
+      <pubDate>Thu, 19 Nov 2026 09:40:00 +0000</pubDate>
+      <description>Three Governance and Delegates IPs reported execution milestones on the vlRSR 1.1.0 optimistic governance rollout, CMC20 and ixEdel staking vault retirement proposals went live, and ham published the October ETHplus basket and liquidity review.</description>
+    </item>
+    <item>
       <title>Reserve Protocol governance digest: 2026-11-18</title>
       <link>https://www.anode.gg/digests/reserve/2026-11-18/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/reserve/2026-11-18/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/reserve/2026-10-14/</guid>
       <pubDate>Wed, 14 Oct 2026 09:40:00 +0000</pubDate>
       <description>Two supportive replies on the RFC to adopt the eUSD methodology for USD3 and change its collateral basket.</description>
-    </item>
-    <item>
-      <title>Reserve Protocol governance digest: 2026-10-13</title>
-      <link>https://www.anode.gg/digests/reserve/2026-10-13/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/reserve/2026-10-13/</guid>
-      <pubDate>Tue, 13 Oct 2026 09:40:00 +0000</pubDate>
-      <description>No new topics or posts on the Reserve forum in this window.</description>
     </item>
   </channel>
 </rss>

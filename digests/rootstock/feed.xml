@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-19</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-19/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-19/</guid>
+      <pubDate>Thu, 19 Nov 2026 09:40:00 +0000</pubDate>
+      <description>Four existing grant threads saw updates: a BitChill Q&amp;A, RPC testing design feedback, the SwaptoX Milestone review, and an endorsement in the application guidelines thread. No new topics.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-18</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-18/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-18/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-14/</guid>
       <pubDate>Wed, 14 Oct 2026 09:40:00 +0000</pubDate>
       <description>The Andromeda 4-week RIF staking pilot goes live across official channels; the Rootstock Builder Hub LABITCONF proposal is withdrawn, and Kleros Foresight answers liquidity questions on milestone 1.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-13</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-13/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-13/</guid>
-      <pubDate>Tue, 13 Oct 2026 09:40:00 +0000</pubDate>
-      <description>The September recognized delegate compensation results are published, with ChronoTrigger leading at 630 USDRIF, ahead of an upcoming payment proposal.</description>
     </item>
   </channel>
 </rss>

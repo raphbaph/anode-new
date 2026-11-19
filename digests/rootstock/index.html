@@ -42,32 +42,39 @@
       </header>
       <!-- /partial:header -->
       <main>
-        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Rootstock Collective</p><h1 id="page-title">Rootstock Collective<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the gov.rootstockcollective.xyz forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-11-18</span></div></div></section>
+        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Rootstock Collective</p><h1 id="page-title">Rootstock Collective<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the gov.rootstockcollective.xyz forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-11-19</span></div></div></section>
         <section class="page-content" aria-label="Digest content"><div class="page-content-inner">
           <p class="digest-note">Independent daily summary of public forum activity, compiled by Anode Research. Not an official communication of Reserve or Rootstock Collective. Anode participates in both as a delegate.</p>
           <div class="article-copy digest-body">
-<h2>Latest edition: 2026-11-18</h2>
+<h2>Latest edition: 2026-11-19</h2>
 <h2>New topics</h2>
 <p>None.</p>
 <h2>Discussion by topic</h2>
 <ul>
-<li>[2601 Grant] SwaptoX Aggregator, Milestone 1 (Grants &amp; Incentives, https://gov.rootstockcollective.xyz/t/700). Raphael_Anode (Anode) pointed SwaptoX to the changed governance methodology under which teams now apply for their milestones on-chain, citing the winks.fun on-chain milestone example, and offered help with the proposal. SwaptoX asked what moving the milestone to an on-chain proposal means, what the purpose of the step is, and whether it is intended for formal milestone review and acceptance. Tane thanked SwaptoX for the completion report and demo videos, confirmed the main app, mobile app, both SDKs and the developer docs are live as described, and flagged that the remaining open Milestone 3 item is the timelock, still marked TBD, with the router (live since early November) administered by a single key.</li>
+<li>[2611 Grant] BitChill: V2 audit and relaunch of non-custodial Bitcoin DCA (Grants &amp; Incentives, https://gov.rootstockcollective.xyz/t/1022). IBUKI asked whether the keeper can still execute unaffected purchase schedules when a LayerBank withdrawal fails or a USDRIF swap hits its price limit. BitChill (Antonio) confirmed the keeper simulates each batch before sending, removes the schedules that cause a failure, sends the rest, and is notified on every such event, a practice used during Sovryn&#x27;s liquidity crisis. IBUKI acknowledged the explanation.</li>
 </ul>
 <ul>
-<li>Recognized Delegate Compensation, October 2026 Resubmission (GRANT 2611). Five FOR votes were recorded in delegate threads. Tane (https://gov.rootstockcollective.xyz/t/463) voted FOR, stating the executable is identical to the October distribution that failed its first vote and adds 250 USDRIF to cover September&#x27;s shortfall, and disclosing that Tane is a beneficiary of the compensation. ChronoTrigger (https://gov.rootstockcollective.xyz/t/627) voted FOR after what it described as a mishap in quorum. PGov (https://gov.rootstockcollective.xyz/t/624) voted FOR, noting the first vote missed quorum at 777,927 stRIF For against the 1,315,103 needed, for the October distribution of 3,750 USDRIF to the seven qualifying delegates plus the 250 USDRIF correction, this time with voting power restored. DAOplomats (https://gov.rootstockcollective.xyz/t/541) voted FOR, describing compensation of proven contributors as the most effective way to guarantee reliable governance operations. Kene_Anode, posting in the Kaf Delegate Thread (https://gov.rootstockcollective.xyz/t/748), voted FOR in support of monthly disbursements, calling delegates a key part of the Rootstock ecosystem.</li>
+<li>RPCDrift: Rootstock RPC Compatibility &amp; Regression Testing (Grants &amp; Incentives, https://gov.rootstockcollective.xyz/t/1011). Emmarobinson noted that receipt and transaction RPC responses depend on chain state, so comparing live mainnet runs can produce false positives, and suggested making M1 explicit that regression checks run against pinned block heights or captured fixtures, with a separate lightweight smoke test on live networks.</li>
+</ul>
+<ul>
+<li>[2601 Grant] SwaptoX Aggregator, Milestone 1 (Grants &amp; Incentives, https://gov.rootstockcollective.xyz/t/700). The team asked whether the on-chain proposal is intended for formal milestone review and acceptance or primarily for recording completion and the governance decision on-chain. The reply stated the primary purpose is to ratify completion and facilitate disbursement, since the DAO treasury is controlled by governance. Emmarobinson added that the on-chain proposal is the disbursement step rather than a second technical review, that forum review establishes completion, and that this should be kept separate from the two open points. For Milestone 4 emmarobinson suggested a partial holdback tied to the 60-day KPI review, sized so campaigns can run.</li>
+</ul>
+<ul>
+<li>General Guidelines for Grant Applications (Grants &amp; Incentives, https://gov.rootstockcollective.xyz/t/94). Raphael_Anode (Anode) described one application as definitely a great product and a good fit for Rootstock Collective, noting ongoing conversations with the applicant&#x27;s team.</li>
 </ul>
 <h2>Sentiment</h2>
-<p>Supportive. The delegate compensation resubmission drew five uncontested FOR votes with no opposition voiced, several delegates explicitly reconciling the earlier failure to reach quorum. The SwaptoX thread stayed cooperative and procedural, with a positive review of the deliverables shadowed only by the still-open timelock item.</p>
+<p>Supportive and procedural. The BitChill exchange resolved positively with no concerns raised, RPCDrift drew constructive RPC testing design feedback, and the SwaptoX thread stayed cooperative with open review items. No opposition or delegate votes were recorded in this window.</p>
 <h2>What to watch</h2>
 <ul>
-<li>The Recognized Delegate Compensation, October 2026 resubmission (GRANT 2611) is being voted on after its first pass missed quorum.</li>
-<li>The SwaptoX Milestone 3 review lists the 2-of-3 timelock as still TBD, with the router currently administered by a single key.</li>
-<li>SwaptoX asked what moving its milestone to an on-chain proposal means; the question remains open in the thread.</li>
+<li>The SwaptoX Milestone 3 review lists the 2-of-3 timelock as still TBD.</li>
+<li>Emmarobinson raised the option of a partial Milestone 4 holdback tied to the 60-day KPI review.</li>
+<li>The RPCDrift suggestion for M1 regression checks against pinned block heights or captured fixtures awaits a response in the thread.</li>
 </ul>
-<p><a href="/digests/rootstock/2026-11-18/">Permalink to this edition ↗</a></p>
+<p><a href="/digests/rootstock/2026-11-19/">Permalink to this edition ↗</a></p>
 <hr class="article-rule" />
 <h2>Archive</h2>
 <ul class="digest-archive">
+<li><a href="/digests/rootstock/2026-11-19/"><span class="digest-archive-date">2026-11-19</span><span class="digest-archive-summary">Four existing grant threads saw updates: a BitChill Q&amp;A, RPC testing design feedback, the SwaptoX Milestone review, and an endorsement in the application guidelines thread. No new topics.</span></a></li>
 <li><a href="/digests/rootstock/2026-11-18/"><span class="digest-archive-date">2026-11-18</span><span class="digest-archive-summary">Five delegates voted FOR the delegate compensation resubmission, and the SwaptoX Milestone review continued with the timelock still open. No new topics.</span></a></li>
 <li><a href="/digests/rootstock/2026-11-17/"><span class="digest-archive-date">2026-11-17</span><span class="digest-archive-summary">SwaptoX asked whether an on-chain proposal is now required for its Milestone 3, and SEEDGov voted FOR the delegate compensation resubmission. No new topics.</span></a></li>
 <li><a href="/digests/rootstock/2026-11-16/"><span class="digest-archive-date">2026-11-16</span><span class="digest-archive-summary">SwaptoX posted a Milestone 1 swap demonstration for the 2601 Grant SwaptoX Aggregator. No new topics.</span></a></li>
