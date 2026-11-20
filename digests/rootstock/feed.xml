@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-20</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-20/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-20/</guid>
+      <pubDate>Fri, 20 Nov 2026 09:40:00 +0000</pubDate>
+      <description>Discussion on four grant threads including the BitChill V2 relaunch, a SwaptoX milestone review, and a resubmitted delegate compensation vote for October 2026.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-19</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-19/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-19/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-15/</guid>
       <pubDate>Thu, 15 Oct 2026 09:40:00 +0000</pubDate>
       <description>The Andromeda 4-week RIF staking observation window goes live across official channels, and delegate Tane questions the value of the Kleros Foresight milestone 1 budget.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-14</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-14/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-14/</guid>
-      <pubDate>Wed, 14 Oct 2026 09:40:00 +0000</pubDate>
-      <description>The Andromeda 4-week RIF staking pilot goes live across official channels; the Rootstock Builder Hub LABITCONF proposal is withdrawn, and Kleros Foresight answers liquidity questions on milestone 1.</description>
     </item>
   </channel>
 </rss>
