@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-21</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-21/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-21/</guid>
+      <pubDate>Sat, 21 Nov 2026 09:40:00 +0000</pubDate>
+      <description>The 1delta grant proposal (2608) passed the offchain stage and is moving to an onchain vote, with a community AMA set for 24 November.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-20</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-20/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-20/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-16/</guid>
       <pubDate>Fri, 16 Oct 2026 09:40:00 +0000</pubDate>
       <description>No new topics or posts on the Rootstock Collective forum in this window.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-15</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-15/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-15/</guid>
-      <pubDate>Thu, 15 Oct 2026 09:40:00 +0000</pubDate>
-      <description>The Andromeda 4-week RIF staking observation window goes live across official channels, and delegate Tane questions the value of the Kleros Foresight milestone 1 budget.</description>
     </item>
   </channel>
 </rss>
