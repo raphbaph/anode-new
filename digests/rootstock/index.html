@@ -42,37 +42,37 @@
       </header>
       <!-- /partial:header -->
       <main>
-        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Rootstock Collective</p><h1 id="page-title">Rootstock Collective<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the gov.rootstockcollective.xyz forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-11-23</span></div></div></section>
+        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Rootstock Collective</p><h1 id="page-title">Rootstock Collective<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the gov.rootstockcollective.xyz forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-11-24</span></div></div></section>
         <section class="page-content" aria-label="Digest content"><div class="page-content-inner">
           <p class="digest-note">Independent daily summary of public forum activity, compiled by Anode Research. Not an official communication of Reserve or Rootstock Collective. Anode participates in both as a delegate.</p>
           <div class="article-copy digest-body">
-<h2>Latest edition: 2026-11-23</h2>
+<h2>Latest edition: 2026-11-24</h2>
 <h2>Proposals and RFCs</h2>
-<p>No new proposals or RFCs were posted this window. Three existing grant threads received updates in Grants and Incentives, and a delegate vote was recorded on the Recognized Delegate Compensation resubmission.</p>
+<p>No new proposals or RFCs were posted this window. Four existing grant threads received updates as grantees answered reviewer and delegate questions.</p>
 <h2>New topics</h2>
 <p>None.</p>
 <h2>Discussion by topic</h2>
-<h3>[2508 Grant Proposal] Winks.fun: On-chain actions on Rootstock within Twitter (https://gov.rootstockcollective.xyz/t/546)</h3>
-<p>emmarobinson argued that the chain-verifiable marker answers the measurement concern but not the release structure. If Grant Guidelines V3.3 applies, the M3 request should be amended to USD 900 on approval and USD 8,100 after the T+30 review, since a public commitment does not give the DAO a clawback if the target is missed. The team was asked to confirm whether the M3 request will be revised.</p>
 <h3>[2611 Grant] BitChill: V2 audit and relaunch of non-custodial Bitcoin DCA (https://gov.rootstockcollective.xyz/t/1022)</h3>
-<p>BitChill responded to Axia and santimirovasergij, agreeing to make its commitments part of the record. Since the proposal can no longer be edited, the commitments are restated in the thread and will be repeated in the M1 on-chain proposal and in each milestone&#x27;s evidence: M4 volume excludes purchases funded by the applicant, the admin Safe, the grant wallet or any other wallet the applicant controls. Curia asked whether a backup plan exists if BitChill is unavailable for an extended period; the infrastructure is documented, but the question is whether another person would have the access and resources to take over the keeper.</p>
+<p>BitChill answered Curia&#x27;s key-person question. Getting V2 audited, deployed and running depends entirely on BitChill; once live, day-to-day operation is automated, the keeper runs weekly batches on its own and monitoring alerts on failure. A period without BitChill would not stop the service by itself; it would only matter if something broke while the applicant was away.</p>
 <h3>[2610 Grant] Predge, disputable USDRIF payments on Rootstock without an escrow agent, Milestone 1 (https://gov.rootstockcollective.xyz/t/1009)</h3>
-<p>santimirovasergij noted that job 1 used tRBTC while USDRIF is the grant&#x27;s default settlement asset, and asked whether job 2, the objection branch or another PoC run will use testnet USDRIF end to end. That would exercise the USDRIF path before mainnet and reveal any testnet liquidity or token setup needs; if USDRIF is not available on Rootstock testnet, the delegate asked that the constraint be noted.</p>
-<h3>Recognized Delegate Compensation, October 2026 Resubmission (GRANT 2611) (https://gov.rootstockcollective.xyz/t/711)</h3>
-<p>DAOstar_gov recorded a FOR vote in the DAOstar Delegate Thread. The rationale states the proposal is a duplicate of the prior Grant 2611 and was resubmitted because it did not meet quorum; DAOstar supports strong governance and rewarding delegates who support that goal.</p>
+<p>predge answered santimirovasergij on why job 1 ran in tRBTC. The AgentJob contract in this proof of concept escrows the native coin via msg.value, which was the fastest way to get a live job on testnet. USDRIF is available on Rootstock testnet (RIF US Dollar at 0x8dbF326E12a9fF37ED6ddf75adA548c2640a6482, verified, around 226 holders), so there is no liquidity constraint. The plan is to add an ERC-20 path to AgentJob using approve and transferFrom.</p>
+<h3>[2601 Grant] SwaptoX Aggregator, Milestone 1 (https://gov.rootstockcollective.xyz/t/700)</h3>
+<p>SwaptoX responded to feedback and addressed each point. On Tane&#x27;s points about timelock, audit and Milestone 4 funding, the Router is currently managed by a single administrator; once ownership is transferred to the Timelock contract, the transfer cannot be reversed through the current ownership mechanism. The audit and Timelock discussion continues subject to the audit completing.</p>
+<h3>Rootstock, Governance at a Glance (https://gov.rootstockcollective.xyz/t/995)</h3>
+<p>Raphael_Anode (Anode) confirmed the guidelines anchor. Grant Guidelines V3.3 took effect on 3 September 2026, and Section 7 item 4 withholds a final tranche of about 30% of total grant value until a post-completion impact review confirms delivery. M3 is the terminal milestone. Applied to the grant: total USD 27,000 (3 x USD 9,000), 30% terminal holdback of USD 8,100, M3 on approval of USD 900, with the balance paid after the T+30 review. winksdotfun confirmed the structure on the record, noting it is anchored to the guidelines rather than a one-off arrangement.</p>
 <h2>Sentiment</h2>
-<p>Mixed to constructive overall. The Winks.fun thread carries a substantive objection on the M3 release structure under Grant Guidelines V3.3, with the team asked to confirm a revision. The BitChill thread is cooperative, with the grantee accepting prior feedback, while Curia&#x27;s question flags key-person risk around the keeper. The Predge thread is a constructive delegate question on exercising the USDRIF path, and the DAOstar vote is supportive of the compensation resubmission.</p>
+<p>Constructive and cooperative overall. Grantees responded directly to reviewer and delegate questions on BitChill, Predge and SwaptoX, with no opposition voiced. The Winks.fun milestone structure was confirmed on the record after being anchored to Grant Guidelines V3.3, closing the earlier M3 holdback question.</p>
 <h2>What to watch</h2>
 <ul>
-<li>The Winks.fun team was asked to confirm whether the M3 request will be revised to USD 900 on approval and USD 8,100 after the T+30 review.</li>
-<li>BitChill committed to repeating its commitments in the M1 on-chain proposal; Curia&#x27;s question on a keeper backup plan awaits a response.</li>
-<li>santimirovasergij asked whether a future Predge PoC run will use testnet USDRIF end to end; the question awaits an answer.</li>
-<li>The Recognized Delegate Compensation, October 2026 resubmission continues to collect delegate votes after missing quorum on its first pass.</li>
+<li>SwaptoX (t/700): the audit completion and its interaction with the Timelock transfer remain open; the Milestone 4 funding question awaits resolution.</li>
+<li>Predge (t/1009): an ERC-20 path is planned for a future run to exercise USDRIF end to end before mainnet.</li>
+<li>BitChill (t/1022): the key-person question was answered with the keeper automation, subject to a failure during an absence.</li>
 </ul>
-<p><a href="/digests/rootstock/2026-11-23/">Permalink to this edition ↗</a></p>
+<p><a href="/digests/rootstock/2026-11-24/">Permalink to this edition ↗</a></p>
 <hr class="article-rule" />
 <h2>Archive</h2>
 <ul class="digest-archive">
+<li><a href="/digests/rootstock/2026-11-24/"><span class="digest-archive-date">2026-11-24</span><span class="digest-archive-summary">No new topics; four existing grant threads updated as grantees answered reviewer and delegate questions on BitChill, Predge, SwaptoX and the Winks.fun milestone guidance.</span></a></li>
 <li><a href="/digests/rootstock/2026-11-23/"><span class="digest-archive-date">2026-11-23</span><span class="digest-archive-summary">No new topics; three existing grant threads updated in Grants and Incentives and a delegate vote recorded on the compensation resubmission.</span></a></li>
 <li><a href="/digests/rootstock/2026-11-22/"><span class="digest-archive-date">2026-11-22</span><span class="digest-archive-summary">Two existing grants updated in Grants and Incentives, with no new proposals or topics.</span></a></li>
 <li><a href="/digests/rootstock/2026-11-21/"><span class="digest-archive-date">2026-11-21</span><span class="digest-archive-summary">The 1delta grant proposal (2608) passed the offchain stage and is moving to an onchain vote, with a community AMA set for 24 November.</span></a></li>
