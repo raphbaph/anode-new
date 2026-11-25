@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="No new topics. Replies continued in the DTF deprecation RFCs and the eUSD revenue share update, covering redemption mechanics and operational sequencing." />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#0a0d0c" />
+    <link rel="canonical" href="https://www.anode.gg/digests/reserve/2026-11-25/" /><link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Reserve Protocol governance digest RSS" href="/digests/reserve/feed.xml" />
+    <meta property="article:published_time" content="2026-11-25" />
+    <meta property="og:type" content="article" /><meta property="og:site_name" content="Anode" /><meta property="og:url" content="https://www.anode.gg/digests/reserve/2026-11-25/" />
+    <meta property="og:title" content="Reserve Protocol governance digest: 2026-11-25 | Anode" /><meta property="og:description" content="No new topics. Replies continued in the DTF deprecation RFCs and the eUSD revenue share update, covering redemption mechanics and operational sequencing." /><meta property="og:image" content="https://www.anode.gg/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Reserve Protocol governance digest: 2026-11-25 | Anode" /><meta name="twitter:description" content="No new topics. Replies continued in the DTF deprecation RFCs and the eUSD revenue share update, covering redemption mechanics and operational sequencing." /><meta name="twitter:image" content="https://www.anode.gg/og-image.png" />
+    <title>Reserve Protocol governance digest: 2026-11-25 | Anode</title>
+    <script type="application/ld+json">
+      {"@context": "https://schema.org","@graph": [{"@type": "Article","@id": "https://www.anode.gg/digests/reserve/2026-11-25/#article","url": "https://www.anode.gg/digests/reserve/2026-11-25/","headline": "Reserve Protocol governance digest: 2026-11-25","description": "No new topics. Replies continued in the DTF deprecation RFCs and the eUSD revenue share update, covering redemption mechanics and operational sequencing.","datePublished": "2026-11-25","inLanguage": "en","author": {"@type": "Organization","@id": "https://www.anode.gg/#organization","name": "Anode"},"publisher": {"@id": "https://www.anode.gg/#organization"},"isPartOf": {"@id": "https://www.anode.gg/digests/reserve/#webpage"},"image": "https://www.anode.gg/og-image.png"},{"@type": "BreadcrumbList","itemListElement": [{"@type": "ListItem","position": 1,"name": "Anode","item": "https://www.anode.gg/"},{"@type": "ListItem","position": 2,"name": "Digests","item": "https://www.anode.gg/digests/"},{"@type": "ListItem","position": 3,"name": "Reserve Protocol","item": "https://www.anode.gg/digests/reserve/"},{"@type": "ListItem","position": 4,"name": "2026-11-25","item": "https://www.anode.gg/digests/reserve/2026-11-25/"}]}]}
+    </script>
+    <link rel="stylesheet" href="/styles.css" /><link rel="stylesheet" href="/pages.css" /><link rel="stylesheet" href="/digests.css" />
+  </head>
+  <body class="page-body">
+    <div class="site-shell">
+      <!-- partial:header -->
+      <header class="site-header">
+        <a class="wordmark" href="/" aria-label="Anode home">
+          <span class="wordmark-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="wordmark-name">ANODE</span><span class="wordmark-sub">RESEARCH</span>
+        </a>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="/practice/">Practice</a>
+          <a href="/research/">Research</a>
+          <a href="/tools/">Tools</a>
+          <a href="/digests/" aria-current="page">Digests</a>
+          <a href="/about/">About</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="nav-toggle-label">Menu</span><span class="nav-toggle-icon" aria-hidden="true"></span>
+        </button>
+        <a class="header-cta" href="mailto:hello@anode.gg">
+          <span>Start a conversation</span>
+          <span class="arrow">↗</span>
+        </a>
+      </header>
+      <!-- /partial:header -->
+      <main>
+        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digest / Reserve Protocol</p><h1 id="page-title">Reserve Protocol digest,<br /><em>2026-11-25.</em></h1><p class="page-deck">No new topics. Replies continued in the DTF deprecation RFCs and the eUSD revenue share update, covering redemption mechanics and operational sequencing.</p><div class="page-meta"><span>Window: 2026-11-24 09:15 to 2026-11-25 09:15 UTC</span><span>Published 2026-11-25 UTC</span></div></div></section>
+        <section class="page-content" aria-label="Digest content"><div class="page-content-inner">
+          <p class="digest-note">Independent daily summary of public forum activity, compiled by Anode Research. Not an official communication of Reserve or Rootstock Collective. Anode participates in both as a delegate.</p>
+          <div class="article-copy digest-body">
+<h2>Proposals and RFCs</h2>
+<p>No new RFC or implementation proposal opened in this window. Activity continued inside the existing DTF deprecation RFC series and one proposal-update thread.</p>
+<ul>
+<li>[RFC] Deprecating DGI (topic 1768): Raphael_Anode (Anode) clarified that redemption does not route through Uniswap. redeem() transfers the basket tokens directly from the DTF contract to the redeemer, pro rata of the basket, with no swap and no pool. The pool matters only for buying and selling DGI on the secondary market.</li>
+<li>[RFC] Deprecating BGCI (topic 1769): Raphael_Anode (Anode) said redemption and holders are unaffected and no exit window is needed. deprecateFolio() sets isDeprecated to true and voids the TVL fee; the notDeprecated guard applies only to minting, starting a rebalance, opening an auction, bidding and deploying a trusted filler, so redeem() carries no deprecation guard.</li>
+<li>[RFC] Deprecating DFX (topic 1767): sarahrobinson called the proposal clear, with one operational point before step 1: verify that the redemption path in the Reserve app does not depend on any role being removed and test a small redemption, and consider notice to the 88 holders and Uniswap V3 LPs that mints and rebalances stop while redemption remains available.</li>
+<li>[RFC] Deprecating CLX (topic 1766): gatherszoellner0500 raised whether a final rebalance before deprecateFolio would improve the redemption basket for remaining holders, noting the current 50/29/15 split is concentrated and is fixed once rebalancing is blocked.</li>
+<li>[RFC] eUSD Revenue Share Programme Update 08-10-2026 (topic 1664): gatherszoellner0500 asked whether the planned automation calculates the 3% relative change at each biweekly snapshot and auto-skips sub-threshold proposals, or still requires a manual check.</li>
+</ul>
+<h2>New topics</h2>
+<p>None.</p>
+<h2>Discussion by topic</h2>
+<ul>
+<li>1768 Deprecating DGI: Q&amp;A on redemption mechanics by Raphael_Anode (Anode).</li>
+<li>1769 Deprecating BGCI: Q&amp;A on the scope of the deprecation guard by Raphael_Anode (Anode).</li>
+<li>1767 Deprecating DFX: operational input and sequencing before step 1 from sarahrobinson.</li>
+<li>1778 PGov Delegate Platform: Raphael_Anode (Anode) welcomed the new platform.</li>
+<li>1777 A test with llorix: Raphael_Anode (Anode) pointed to Snapshot for DAOs with handshake agreements on off-chain execution.</li>
+<li>1766 Deprecating CLX: question on a final rebalance before deprecation.</li>
+<li>1664 eUSD Revenue Share: process question on the automation threshold.</li>
+</ul>
+<h2>Sentiment</h2>
+<p>Constructive and technical across the threads, with no opposition voiced. The deprecation RFCs drew clarifying questions on redemption mechanics and rebalance timing, plus one operational sequencing suggestion for DFX, rather than any challenge to the deprecations.</p>
+<h2>What to watch</h2>
+<ul>
+<li>Open question in the CLX thread on whether a final rebalance before deprecateFolio is warranted.</li>
+<li>Open question in the eUSD revenue share thread on whether the automation auto-skips sub-threshold proposals.</li>
+<li>sarahrobinson raised verifying the app redemption path and notifying the 88 holders and Uniswap V3 LPs before the DFX deprecation step 1.</li>
+<li>Nothing scheduled for onchain or voting in this window.</li>
+</ul>
+          </div>
+          <nav class="digest-pager" aria-label="Digest navigation"><a href="/digests/reserve/2026-11-24/">Previous: 2026-11-24</a><a href="/digests/reserve/">All Reserve Protocol digests</a></nav>
+        </div></section>
+      </main>
+      <!-- partial:footer -->
+      <footer class="site-footer">
+        <div class="footer-mark"><span class="wordmark-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>ANODE</span></div>
+        <p>Decision systems, incentive design &amp; coordination research.</p>
+        <div class="footer-links"><a href="/practice/">Practice</a><a href="/research/">Research</a><a href="/tools/">Tools</a><a href="/digests/">Digests</a><a href="/about/">About</a><a href="mailto:hello@anode.gg">Email</a><a href="/privacy/">Privacy</a></div>
+      </footer>
+      <script src="/nav.js" defer></script>
+      <!-- /partial:footer -->
+    </div>
+  </body>
+</html>

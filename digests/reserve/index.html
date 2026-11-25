@@ -42,45 +42,46 @@
       </header>
       <!-- /partial:header -->
       <main>
-        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Reserve Protocol</p><h1 id="page-title">Reserve Protocol<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the forum.reserve.org forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-11-24</span></div></div></section>
+        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Reserve Protocol</p><h1 id="page-title">Reserve Protocol<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the forum.reserve.org forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-11-25</span></div></div></section>
         <section class="page-content" aria-label="Digest content"><div class="page-content-inner">
           <p class="digest-note">Independent daily summary of public forum activity, compiled by Anode Research. Not an official communication of Reserve or Rootstock Collective. Anode participates in both as a delegate.</p>
           <div class="article-copy digest-body">
-<h2>Latest edition: 2026-11-24</h2>
+<h2>Latest edition: 2026-11-25</h2>
 <h2>Proposals and RFCs</h2>
+<p>No new RFC or implementation proposal opened in this window. Activity continued inside the existing DTF deprecation RFC series and one proposal-update thread.</p>
 <ul>
-<li><strong>[IP] eUSD Revenue Share Programme Update 05-11-2026</strong> (topic 1726): Raphael_Anode (Anode) clarified a relative-versus-absolute point, noting the balance moved from 16.3M to 18.1M (plus 1.8M, roughly 1 percent absolute) and that the 2 to 3 percent bar on balance changes was deliberately set high to allow more frequent adjustments. https://forum.reserve.org/t/1726</li>
-<li><strong>[RFC] eUSD staking and overcollateralization</strong> (topic 1669): Raphael_Anode (Anode) asked how the proposal would handle smaller risks and how the buffer would be filled and maintained. https://forum.reserve.org/t/1669</li>
-<li><strong>[RFC] Deprecating BGCI</strong> (topic 1769): a comment noted roughly 82 percent of supply sits in a single Uniswap V3 pool and asked whether deprecateFolio leaves transfers and LP withdrawals unaffected, or whether the wind-down needs a short LP exit window. https://forum.reserve.org/t/1769</li>
-<li><strong>[RFC] Deprecating DGI</strong> (topic 1768): a comment noted about 90 percent of supply sits in one Uniswap V3 pool and asked whether redemptions remain practical if that pool becomes imbalanced, given slippage risk when holders redeem into an 81 percent MORPHO basket. https://forum.reserve.org/t/1768</li>
-<li><strong>A test with llorix</strong> (topic 1777, Governance and Delegates): Raphael_Anode (Anode) outlined the governance authority flow from RFC and forum poll to IP, onchain voting and execution; a reply asked for a specific DAO where the gap between such a mandate and a multisig, treasury or timelock signer caused a real execution problem. https://forum.reserve.org/t/1777</li>
+<li>[RFC] Deprecating DGI (topic 1768): Raphael_Anode (Anode) clarified that redemption does not route through Uniswap. redeem() transfers the basket tokens directly from the DTF contract to the redeemer, pro rata of the basket, with no swap and no pool. The pool matters only for buying and selling DGI on the secondary market.</li>
+<li>[RFC] Deprecating BGCI (topic 1769): Raphael_Anode (Anode) said redemption and holders are unaffected and no exit window is needed. deprecateFolio() sets isDeprecated to true and voids the TVL fee; the notDeprecated guard applies only to minting, starting a rebalance, opening an auction, bidding and deploying a trusted filler, so redeem() carries no deprecation guard.</li>
+<li>[RFC] Deprecating DFX (topic 1767): sarahrobinson called the proposal clear, with one operational point before step 1: verify that the redemption path in the Reserve app does not depend on any role being removed and test a small redemption, and consider notice to the 88 holders and Uniswap V3 LPs that mints and rebalances stop while redemption remains available.</li>
+<li>[RFC] Deprecating CLX (topic 1766): gatherszoellner0500 raised whether a final rebalance before deprecateFolio would improve the redemption basket for remaining holders, noting the current 50/29/15 split is concentrated and is fixed once rebalancing is blocked.</li>
+<li>[RFC] eUSD Revenue Share Programme Update 08-10-2026 (topic 1664): gatherszoellner0500 asked whether the planned automation calculates the 3% relative change at each biweekly snapshot and auto-skips sub-threshold proposals, or still requires a manual check.</li>
 </ul>
 <h2>New topics</h2>
-<ul>
-<li><strong>PGov Delegate Platform</strong> (Delegate Platforms) by PGov, delegate ENS pgov.eth, address 0x3fb19771947072629c8eee7995a2ef23b72d4c8a, Telegram @mad_gov, email PGovTeam@gmail.com. A six-year governance team opening its voting and communication thread. https://forum.reserve.org/t/1778</li>
-<li><strong>How does a gas string trimmer hold up for small residential jobs?</strong> (Uncategorized) by kolodzikearnest9770, off topic. https://forum.reserve.org/t/1779</li>
-</ul>
+<p>None.</p>
 <h2>Discussion by topic</h2>
 <ul>
-<li><strong>t/1726</strong>: one reply (the clarification above).</li>
-<li><strong>t/1777</strong>: the authority-flow explanation and a follow-up asking for a concrete historical example of a thin handoff causing a problem.</li>
-<li><strong>t/1669</strong>: opening question on handling smaller risks and buffer maintenance, no reply yet.</li>
-<li><strong>t/1778</strong>: application thread for the PGov delegate.</li>
-<li><strong>t/1769</strong>: operational question on LP withdrawals and a possible exit window.</li>
-<li><strong>t/1768</strong>: operational question on redemption practicality and slippage.</li>
+<li>1768 Deprecating DGI: Q&amp;A on redemption mechanics by Raphael_Anode (Anode).</li>
+<li>1769 Deprecating BGCI: Q&amp;A on the scope of the deprecation guard by Raphael_Anode (Anode).</li>
+<li>1767 Deprecating DFX: operational input and sequencing before step 1 from sarahrobinson.</li>
+<li>1778 PGov Delegate Platform: Raphael_Anode (Anode) welcomed the new platform.</li>
+<li>1777 A test with llorix: Raphael_Anode (Anode) pointed to Snapshot for DAOs with handshake agreements on off-chain execution.</li>
+<li>1766 Deprecating CLX: question on a final rebalance before deprecation.</li>
+<li>1664 eUSD Revenue Share: process question on the automation threshold.</li>
 </ul>
 <h2>Sentiment</h2>
-<p>Supportive technical Q and A overall. The BGCI and DGI deprecation threads now carry open operational concerns about LP liquidity and redemption slippage; no opposition has been stated.</p>
+<p>Constructive and technical across the threads, with no opposition voiced. The deprecation RFCs drew clarifying questions on redemption mechanics and rebalance timing, plus one operational sequencing suggestion for DFX, rather than any challenge to the deprecations.</p>
 <h2>What to watch</h2>
 <ul>
-<li>Open queries on the BGCI and DGI wind-downs about LP withdrawals, exit timing and redemption slippage await responses.</li>
-<li>The eUSD staking and overcollateralization RFC has a pending question on how smaller risks are handled.</li>
-<li>Nothing else scheduled in this window.</li>
+<li>Open question in the CLX thread on whether a final rebalance before deprecateFolio is warranted.</li>
+<li>Open question in the eUSD revenue share thread on whether the automation auto-skips sub-threshold proposals.</li>
+<li>sarahrobinson raised verifying the app redemption path and notifying the 88 holders and Uniswap V3 LPs before the DFX deprecation step 1.</li>
+<li>Nothing scheduled for onchain or voting in this window.</li>
 </ul>
-<p><a href="/digests/reserve/2026-11-24/">Permalink to this edition ↗</a></p>
+<p><a href="/digests/reserve/2026-11-25/">Permalink to this edition ↗</a></p>
 <hr class="article-rule" />
 <h2>Archive</h2>
 <ul class="digest-archive">
+<li><a href="/digests/reserve/2026-11-25/"><span class="digest-archive-date">2026-11-25</span><span class="digest-archive-summary">No new topics. Replies continued in the DTF deprecation RFCs and the eUSD revenue share update, covering redemption mechanics and operational sequencing.</span></a></li>
 <li><a href="/digests/reserve/2026-11-24/"><span class="digest-archive-date">2026-11-24</span><span class="digest-archive-summary">Replies continued on the eUSD revenue share IP and the BGCI and DGI deprecation RFCs, with liquidity questions raised on both wind-downs.</span></a></li>
 <li><a href="/digests/reserve/2026-11-23/"><span class="digest-archive-date">2026-11-23</span><span class="digest-archive-summary">The eUSD Revenue Share Programme update moved from RFC to IP and its onchain governance flow completed; discussion continued on eUSD staking fees and an open financial marketplace.</span></a></li>
 <li><a href="/digests/reserve/2026-11-22/"><span class="digest-archive-date">2026-11-22</span><span class="digest-archive-summary">Voting is live for CMC20 and ixEdel retirements; eUSD revenue share clarification pending; one unverified new topic posted.</span></a></li>

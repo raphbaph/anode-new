@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-25</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-25/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-25/</guid>
+      <pubDate>Wed, 25 Nov 2026 09:40:00 +0000</pubDate>
+      <description>Winks.fun Milestone 3 initial tranche passed the delegate vote; SwaptoX moves ahead under updated guidelines; Andromeda closes its M1 pilot without payment.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-24</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-24/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-24/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-20/</guid>
       <pubDate>Tue, 20 Oct 2026 09:40:00 +0000</pubDate>
       <description>Rootstock Collective published the RC V15.0 release note describing faster and more dependable rewards data in the dApp.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-19</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-19/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-19/</guid>
-      <pubDate>Mon, 19 Oct 2026 09:40:00 +0000</pubDate>
-      <description>No new topics or posts on the Rootstock Collective forum in this window.</description>
     </item>
   </channel>
 </rss>
