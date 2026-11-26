@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-26</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-26/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-26/</guid>
+      <pubDate>Thu, 26 Nov 2026 09:40:00 +0000</pubDate>
+      <description>ChronoTrigger and SEEDGov voted For the Winks.fun Milestone 3 initial tranche; review continued on the Predge, 1delta and BitChill grants.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-25</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-25/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-25/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-21/</guid>
       <pubDate>Wed, 21 Oct 2026 09:40:00 +0000</pubDate>
       <description>SEEDGov voted FOR on Grant 2610, Recognized Delegate Compensation for September 2026.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-20</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-20/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-20/</guid>
-      <pubDate>Tue, 20 Oct 2026 09:40:00 +0000</pubDate>
-      <description>Rootstock Collective published the RC V15.0 release note describing faster and more dependable rewards data in the dApp.</description>
     </item>
   </channel>
 </rss>
