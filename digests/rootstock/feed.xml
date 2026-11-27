@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://www.anode.gg/digests/rootstock/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rootstock Collective governance digest: 2026-11-27</title>
+      <link>https://www.anode.gg/digests/rootstock/2026-11-27/</link>
+      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-27/</guid>
+      <pubDate>Fri, 27 Nov 2026 09:40:00 +0000</pubDate>
+      <description>Milestone updates and review continued on the Predge and BitChill grants; no new grant applications or RFCs.</description>
+    </item>
+    <item>
       <title>Rootstock Collective governance digest: 2026-11-26</title>
       <link>https://www.anode.gg/digests/rootstock/2026-11-26/</link>
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-11-26/</guid>
@@ -208,13 +215,6 @@
       <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-22/</guid>
       <pubDate>Thu, 22 Oct 2026 09:40:00 +0000</pubDate>
       <description>No new topics or proposals; replies in the 1delta, SwaptoX and delegate threads, with a conditional Against vote on the Winks.fun milestone 3 payout.</description>
-    </item>
-    <item>
-      <title>Rootstock Collective governance digest: 2026-10-21</title>
-      <link>https://www.anode.gg/digests/rootstock/2026-10-21/</link>
-      <guid isPermaLink="true">https://www.anode.gg/digests/rootstock/2026-10-21/</guid>
-      <pubDate>Wed, 21 Oct 2026 09:40:00 +0000</pubDate>
-      <description>SEEDGov voted FOR on Grant 2610, Recognized Delegate Compensation for September 2026.</description>
     </item>
   </channel>
 </rss>
