@@ -42,41 +42,33 @@
       </header>
       <!-- /partial:header -->
       <main>
-        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Rootstock Collective</p><h1 id="page-title">Rootstock Collective<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the gov.rootstockcollective.xyz forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-11-27</span></div></div></section>
+        <section class="page-hero" aria-labelledby="page-title"><div class="page-hero-inner"><p class="page-kicker">Governance digests / Rootstock Collective</p><h1 id="page-title">Rootstock Collective<br /><em>digest.</em></h1><p class="page-deck">Independent daily summary of public activity on the gov.rootstockcollective.xyz forum: proposals, new topics, discussion and sentiment, compiled by Anode Research.</p><div class="page-meta"><span>Daily digest of public forum activity</span><span>Latest edition: 2026-11-28</span></div></div></section>
         <section class="page-content" aria-label="Digest content"><div class="page-content-inner">
           <p class="digest-note">Independent daily summary of public forum activity, compiled by Anode Research. Not an official communication of Reserve or Rootstock Collective. Anode participates in both as a delegate.</p>
           <div class="article-copy digest-body">
-<h2>Latest edition: 2026-11-27</h2>
+<h2>Latest edition: 2026-11-28</h2>
 <h2>Proposals and RFCs</h2>
-<p>No new grant applications or RFCs this window. Two existing grant threads in Grants and Incentives moved forward.</p>
+<p><strong>2610 Grant, Predge, disputable USDRIF payments without an escrow agent, Milestone 1</strong> (Grants &amp; Incentives). Predge revised the proposal in response to a review. Contested cases now go to Kleros first and the 2-of-3 Safe decides only if that route fails, which Predge noted still makes the team the fallback decider. Two of the three signers will be independent of Predge, with no funding or employment link, and all three signers with wallets will be named in advance. https://gov.rootstockcollective.xyz/t/1009</p>
+<p>No new proposals were posted.</p>
 <h2>New topics</h2>
-<p>None.</p>
+<p>None this window.</p>
 <h2>Discussion by topic</h2>
-<p><strong>[2610] Predge, disputable USDRIF payments, Milestone 1</strong> (t/1009, https://gov.rootstockcollective.xyz/t/1009), Grants and Incentives</p>
-<ul>
-<li>predge (milestone update): the verdict signing key now sits in AWS KMS, ahead of the 30 Nov deadline. New attestation key 998912866a4361a5 (ed25519) lives in KMS; the server can ask KMS to sign but cannot read or copy the key. The previous key 3b6551a6439b9bda is marked retired (not revoked), so records it signed still verify; the registry shows both with custody.</li>
-<li>krngill (support): reads the USD 35,000 as building non-custodial USDRIF job payments on Rootstock. Funds release on a verdict against a test fixed before payment and are refunded at the deadline otherwise; the audit is paid directly to the auditor, contested cases go to Kleros, and the deadline refund needs nobody&#x27;s approval.</li>
-</ul>
-<p><strong>[2611] BitChill, V2 audit and relaunch of non-custodial Bitcoin DCA</strong> (t/1022, https://gov.rootstockcollective.xyz/t/1022), Grants and Incentives</p>
-<ul>
-<li>BitChill (reply to ChronoTrigger): agrees all three points are fair. Backup signer: will work out a multi-signer setup with trusted people and post the final configuration before V2 goes live, ideally before the on-chain vote. Slippage floor: Kann flagged it and it is fixed, the minimum output can no longer be set below 95% of the rBTC amount.</li>
-<li>krngill (support): reads the USD 20,000 as covering the rest of the Zealynx audit, the V2 relaunch on LayerBank with idle mode, the USDRIF/USDT0 price controls and a year of running BitChill, last payment tied to usage. Likes that the contracts cannot be upgraded or touch user funds and that DOC buys go through Money On Chain.</li>
-<li>BitChill (reply to krngill): planned changes to the oracle used by the USDRIF and USDT0 routes get the same 14-day notice as fee increases; if the current oracle fails or becomes unsafe, it may replace it without notice, posting the reason plus old and new addresses. DOC purchases do not use this oracle.</li>
-</ul>
+<p><strong>Topic 1009, [2610 Grant] Predge (Grants &amp; Incentives).</strong> Predge accepted all three points of the review as fair, restructured dispute resolution so Kleros handles contested cases first with the Safe as fallback only, and committed to two of three signers being independent, named with wallets before proceeding. https://gov.rootstockcollective.xyz/t/1009</p>
+<p><strong>Topic 546, [2508 Grant Proposal] Winks.fun (Grants &amp; Incentives).</strong> Mattsanto supported this tranche. Winks.fun requests 900 USDRIF now, with the remaining 8,100 after a 30-day review requiring at least 12 DOC mints on mainnet from 8 or more different wallets carrying the on-chain marker. The post praised the split as matching what the DAO asked for after the October vote and the marker as checkable on the Rootstock explorer. https://gov.rootstockcollective.xyz/t/546</p>
+<p><strong>Topic 921, [2606 Builder Activation] Stelios and Mick (Geyser Team) (Collective Rewards).</strong> santimirovasergij raised a clarification question before voting: the Q3 update changes the picture because the AON and Prism flows that anchor the application are paused, while Circular Grants use a different process. The post asked whether the Builder Activation would fund maintenance and security of the existing AON and Prism contracts or shift toward Circular Grants infrastructure, and whether the paused contracts remain deployed or can be restarted. https://gov.rootstockcollective.xyz/t/921</p>
 <h2>Sentiment</h2>
-<ul>
-<li>Predge M1: Supportive. krngill&#x27;s read endorses the grant structure and the KMS custody step; predge&#x27;s update shows steady delivery on the 30 Nov commitment.</li>
-<li>BitChill: Supportive with conditions being addressed. krngill endorses the scope; the points raised by ChronoTrigger (backup signer, slippage floor) are being resolved by the team before the vote.</li>
-</ul>
+<p>Topic 1009 was constructive and cooperative. Predge accepted the review, made concrete structural changes, and addressed the independence concern rather than defending the original design.</p>
+<p>Topic 921 was questioning rather than for or against. The comment flagged that paused core flows may undercut the application&#x27;s premise and asked the applicant to clarify scope before voting.</p>
+<p>Topic 546 was supportive. The comment framed the request favorably and tied it to prior DAO decisions.</p>
 <h2>What to watch</h2>
-<ul>
-<li>BitChill (t/1022): an on-chain vote is expected ahead; the team plans to post the final backup-signer configuration before V2 goes live, ideally before the vote.</li>
-<li>Predge (t/1009): the KMS verdict-signing key is in place, meeting the 30 Nov commitment; the previous key is retired rather than revoked, preserving prior signatures.</li>
-</ul>
-<p><a href="/digests/rootstock/2026-11-27/">Permalink to this edition ↗</a></p>
+<p>The 2606 Builder Activation (topic 921) has an open question on whether it would now cover maintenance of paused contracts; the applicant had not responded in this window.</p>
+<p>The 2610 Predge grant (topic 1009) awaits the naming of the third signer and the independent signers, with wallets, before proceeding on Milestone 1.</p>
+<p>The Winks.fun tranche of 900 USDRIF (topic 546) is tied to a 30-day, 12-mint mainnet adoption review before the remaining 8,100 USDRIF is released.</p>
+<p><a href="/digests/rootstock/2026-11-28/">Permalink to this edition ↗</a></p>
 <hr class="article-rule" />
 <h2>Archive</h2>
 <ul class="digest-archive">
+<li><a href="/digests/rootstock/2026-11-28/"><span class="digest-archive-date">2026-11-28</span><span class="digest-archive-summary">Predge revises the 2610 grant on dispute resolution and signer independence; support for the Winks.fun tranche; a clarification question on the 2606 Builder Activation.</span></a></li>
 <li><a href="/digests/rootstock/2026-11-27/"><span class="digest-archive-date">2026-11-27</span><span class="digest-archive-summary">Milestone updates and review continued on the Predge and BitChill grants; no new grant applications or RFCs.</span></a></li>
 <li><a href="/digests/rootstock/2026-11-26/"><span class="digest-archive-date">2026-11-26</span><span class="digest-archive-summary">ChronoTrigger and SEEDGov voted For the Winks.fun Milestone 3 initial tranche; review continued on the Predge, 1delta and BitChill grants.</span></a></li>
 <li><a href="/digests/rootstock/2026-11-25/"><span class="digest-archive-date">2026-11-25</span><span class="digest-archive-summary">Winks.fun Milestone 3 initial tranche passed the delegate vote; SwaptoX moves ahead under updated guidelines; Andromeda closes its M1 pilot without payment.</span></a></li>
